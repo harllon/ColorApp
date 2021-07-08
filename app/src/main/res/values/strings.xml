@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ColorApp</string>
+    <string name="color">#Color</string>
+    <string name="change_color">Change</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Rvalue">R value</string>
+    <string name="Gvalue">G value</string>
+    <string name="Bvalue">B value</string>
+    <string name="Hvalue">H value</string>
+    <string name="Svalue">S value</string>
+    <string name="Vvalue">V value</string>
+</resources>

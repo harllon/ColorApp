@@ -1,0 +1,243 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.databinding:viewbinding:4.2.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/9badc7cdeb8ec36a78aa0ed3fa5cdf39/viewbinding-4.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/fb11075ea6bfcebe54920129938e2e66/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/harllon/.gradle/caches/transforms-2/files-2.1/4b03a145d7852b060911e951dd18ceff/fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/97ef60dec6281f969ba59aacb44bbb13/navigation-ui-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/71cff227b4734a5fa007133efeef8348/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/81b653086dccafc4b268d84b04700423/navigation-common-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/ddad00a9af791b5db58d80ea0fb7d122/activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.5.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/52d3a73c58f7fa32c0a586f0689e03ca/core-ktx-1.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/ec99a6f5b54cf39c4abc9c62ee2e2ac5/lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/6b2c57e1efca2000958727709077f6ac/lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/fb0bb30a3c510362067b557b88152a3d/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/319ee26a5585e7a4f928649ae41cfe32/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/9dd0195495cc994b3b01c50465b9d521/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/harllon/.gradle/caches/transforms-2/files-2.1/807b7a2656b056de7d4b1268eaf364de/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/046861407ae3d5643548e2ef520d9e4a/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/e0bc54a22d9564168ebac1101c815445/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/718a707001df129a63e72e3b54fb18ea/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/37433ceb785d166fdd42bff0b2bd5259/navigation-fragment-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] /home/harllon/.gradle/caches/transforms-2/files-2.1/b76057fff67fb13a049d071f303e0c3d/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/78a49b4d57d1be6e50de2db6cf0c1f4d/navigation-runtime-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] /home/harllon/.gradle/caches/transforms-2/files-2.1/c61dce84889c8c05fa884741c4721f0a/activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/a75509b69b1f0b59ec51438decc84eb1/appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/510800730eb9b9fadd086fc1a8da6296/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/3af8057a2bc5228e331cc205c9063926/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/1a98e12242f6d6bf4c509b17e249e645/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/503b659ee808c7392839199df1ac1f52/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/72b2ed7b5f4baa12ba909d362c1c0806/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/616dc674bb9d78660bca432175f861f5/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/564be52a4ce45c549befe034b1650591/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/072b7f0d61ccf84bcb8d7fc417f9506c/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/64011cf2f72b9d885cd1738ec9ff9ac9/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/5172ff139ea391d50858a922c12258f9/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/75fe766b37e19a116c9329515bca5941/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/0cbe43f55dc7b4d02700dc0c4a129d34/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/f6ef8c9dc8dc96a0174512c0bc3e3e6a/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/harllon/.gradle/caches/transforms-2/files-2.1/12eace4871562222aeeabbaddc696a86/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/acff097b5748971757bd82853187f1fe/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/7080cf749aede0a876d701592253b9c1/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/14453f3dbd7a5a50102f196962695b2a/navigation-common-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.5.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/6362d0a31bade151a69ea21cb64289fa/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/67f2afbbaeda092ad9f7cc5de7de129b/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/harllon/.gradle/caches/transforms-2/files-2.1/f94c219c712388cb0640332766554063/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/b21ea1dfe54ef7f183a1f50d4819fc95/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/harllon/.gradle/caches/transforms-2/files-2.1/9ad7a081a65d7b658db89ed2f4b01bb7/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/harllon/.gradle/caches/transforms-2/files-2.1/216ce55b549b549bb0dc1b168d170c1c/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/d10c8af230d5a6f0fec13db93bfa9cb2/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/harllon/.gradle/caches/transforms-2/files-2.1/6384af3de32409960d3455ab23f318d7/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/e167daeb9ca9121180a25ca1bf233388/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/c83e1feed531b1c5196a4326a50612a0/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/harllon/.gradle/caches/transforms-2/files-2.1/cbb3d2ba72a4ab77ace879f68fd9186c/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/ac15b7a67c350a85bf6172a07616c313/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/fa5d53e72474743cdc5e8eccf8c03dc1/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/19a79d8e70d2841d460927ad735dfd93/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/d120b1bcf05abc0d4d8a93ada8a0b985/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/ba147519d535e147e0ae10c3f46fd026/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/a55cd1f897a45c6b2a4ad6510c1b27dc/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.google.android.material:material:1.3.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/9dd0195495cc994b3b01c50465b9d521/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/9dd0195495cc994b3b01c50465b9d521/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/harllon/.gradle/caches/transforms-2/files-2.1/807b7a2656b056de7d4b1268eaf364de/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/harllon/.gradle/caches/transforms-2/files-2.1/807b7a2656b056de7d4b1268eaf364de/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.5.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/6362d0a31bade151a69ea21cb64289fa/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/6362d0a31bade151a69ea21cb64289fa/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/harllon/.gradle/caches/transforms-2/files-2.1/6384af3de32409960d3455ab23f318d7/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/harllon/.gradle/caches/transforms-2/files-2.1/6384af3de32409960d3455ab23f318d7/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/6362d0a31bade151a69ea21cb64289fa/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:11:9-46
+activity#com.example.colorapp.MainActivity
+ADDED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:4.2.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/9badc7cdeb8ec36a78aa0ed3fa5cdf39/viewbinding-4.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.2.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/9badc7cdeb8ec36a78aa0ed3fa5cdf39/viewbinding-4.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/fb11075ea6bfcebe54920129938e2e66/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/fb11075ea6bfcebe54920129938e2e66/navigation-fragment-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/harllon/.gradle/caches/transforms-2/files-2.1/4b03a145d7852b060911e951dd18ceff/fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /home/harllon/.gradle/caches/transforms-2/files-2.1/4b03a145d7852b060911e951dd18ceff/fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/97ef60dec6281f969ba59aacb44bbb13/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/97ef60dec6281f969ba59aacb44bbb13/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/71cff227b4734a5fa007133efeef8348/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/71cff227b4734a5fa007133efeef8348/navigation-runtime-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/81b653086dccafc4b268d84b04700423/navigation-common-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/81b653086dccafc4b268d84b04700423/navigation-common-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/ddad00a9af791b5db58d80ea0fb7d122/activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/ddad00a9af791b5db58d80ea0fb7d122/activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.5.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/52d3a73c58f7fa32c0a586f0689e03ca/core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.5.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/52d3a73c58f7fa32c0a586f0689e03ca/core-ktx-1.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/ec99a6f5b54cf39c4abc9c62ee2e2ac5/lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/ec99a6f5b54cf39c4abc9c62ee2e2ac5/lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/6b2c57e1efca2000958727709077f6ac/lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/6b2c57e1efca2000958727709077f6ac/lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/fb0bb30a3c510362067b557b88152a3d/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/fb0bb30a3c510362067b557b88152a3d/lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/319ee26a5585e7a4f928649ae41cfe32/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/319ee26a5585e7a4f928649ae41cfe32/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/9dd0195495cc994b3b01c50465b9d521/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/9dd0195495cc994b3b01c50465b9d521/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/harllon/.gradle/caches/transforms-2/files-2.1/807b7a2656b056de7d4b1268eaf364de/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/harllon/.gradle/caches/transforms-2/files-2.1/807b7a2656b056de7d4b1268eaf364de/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/046861407ae3d5643548e2ef520d9e4a/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/046861407ae3d5643548e2ef520d9e4a/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/e0bc54a22d9564168ebac1101c815445/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/e0bc54a22d9564168ebac1101c815445/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/718a707001df129a63e72e3b54fb18ea/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/718a707001df129a63e72e3b54fb18ea/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/37433ceb785d166fdd42bff0b2bd5259/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/37433ceb785d166fdd42bff0b2bd5259/navigation-fragment-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /home/harllon/.gradle/caches/transforms-2/files-2.1/b76057fff67fb13a049d071f303e0c3d/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /home/harllon/.gradle/caches/transforms-2/files-2.1/b76057fff67fb13a049d071f303e0c3d/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/78a49b4d57d1be6e50de2db6cf0c1f4d/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/78a49b4d57d1be6e50de2db6cf0c1f4d/navigation-runtime-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /home/harllon/.gradle/caches/transforms-2/files-2.1/c61dce84889c8c05fa884741c4721f0a/activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /home/harllon/.gradle/caches/transforms-2/files-2.1/c61dce84889c8c05fa884741c4721f0a/activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/a75509b69b1f0b59ec51438decc84eb1/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/a75509b69b1f0b59ec51438decc84eb1/appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/510800730eb9b9fadd086fc1a8da6296/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/510800730eb9b9fadd086fc1a8da6296/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/3af8057a2bc5228e331cc205c9063926/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/3af8057a2bc5228e331cc205c9063926/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/1a98e12242f6d6bf4c509b17e249e645/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/1a98e12242f6d6bf4c509b17e249e645/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/503b659ee808c7392839199df1ac1f52/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/503b659ee808c7392839199df1ac1f52/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/72b2ed7b5f4baa12ba909d362c1c0806/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/72b2ed7b5f4baa12ba909d362c1c0806/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/616dc674bb9d78660bca432175f861f5/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/616dc674bb9d78660bca432175f861f5/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/564be52a4ce45c549befe034b1650591/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/564be52a4ce45c549befe034b1650591/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/072b7f0d61ccf84bcb8d7fc417f9506c/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/072b7f0d61ccf84bcb8d7fc417f9506c/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/64011cf2f72b9d885cd1738ec9ff9ac9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/64011cf2f72b9d885cd1738ec9ff9ac9/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/5172ff139ea391d50858a922c12258f9/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/5172ff139ea391d50858a922c12258f9/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/75fe766b37e19a116c9329515bca5941/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/75fe766b37e19a116c9329515bca5941/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/0cbe43f55dc7b4d02700dc0c4a129d34/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/0cbe43f55dc7b4d02700dc0c4a129d34/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/f6ef8c9dc8dc96a0174512c0bc3e3e6a/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/f6ef8c9dc8dc96a0174512c0bc3e3e6a/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/harllon/.gradle/caches/transforms-2/files-2.1/12eace4871562222aeeabbaddc696a86/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/harllon/.gradle/caches/transforms-2/files-2.1/12eace4871562222aeeabbaddc696a86/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/acff097b5748971757bd82853187f1fe/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/acff097b5748971757bd82853187f1fe/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/7080cf749aede0a876d701592253b9c1/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/7080cf749aede0a876d701592253b9c1/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/14453f3dbd7a5a50102f196962695b2a/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] /home/harllon/.gradle/caches/transforms-2/files-2.1/14453f3dbd7a5a50102f196962695b2a/navigation-common-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/6362d0a31bade151a69ea21cb64289fa/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/6362d0a31bade151a69ea21cb64289fa/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/67f2afbbaeda092ad9f7cc5de7de129b/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/67f2afbbaeda092ad9f7cc5de7de129b/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/harllon/.gradle/caches/transforms-2/files-2.1/f94c219c712388cb0640332766554063/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/harllon/.gradle/caches/transforms-2/files-2.1/f94c219c712388cb0640332766554063/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/b21ea1dfe54ef7f183a1f50d4819fc95/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/b21ea1dfe54ef7f183a1f50d4819fc95/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/harllon/.gradle/caches/transforms-2/files-2.1/9ad7a081a65d7b658db89ed2f4b01bb7/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/harllon/.gradle/caches/transforms-2/files-2.1/9ad7a081a65d7b658db89ed2f4b01bb7/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/harllon/.gradle/caches/transforms-2/files-2.1/216ce55b549b549bb0dc1b168d170c1c/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/harllon/.gradle/caches/transforms-2/files-2.1/216ce55b549b549bb0dc1b168d170c1c/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/d10c8af230d5a6f0fec13db93bfa9cb2/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/d10c8af230d5a6f0fec13db93bfa9cb2/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/harllon/.gradle/caches/transforms-2/files-2.1/6384af3de32409960d3455ab23f318d7/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/harllon/.gradle/caches/transforms-2/files-2.1/6384af3de32409960d3455ab23f318d7/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/e167daeb9ca9121180a25ca1bf233388/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/e167daeb9ca9121180a25ca1bf233388/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/c83e1feed531b1c5196a4326a50612a0/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/c83e1feed531b1c5196a4326a50612a0/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/harllon/.gradle/caches/transforms-2/files-2.1/cbb3d2ba72a4ab77ace879f68fd9186c/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/harllon/.gradle/caches/transforms-2/files-2.1/cbb3d2ba72a4ab77ace879f68fd9186c/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/ac15b7a67c350a85bf6172a07616c313/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/ac15b7a67c350a85bf6172a07616c313/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/fa5d53e72474743cdc5e8eccf8c03dc1/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/fa5d53e72474743cdc5e8eccf8c03dc1/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/19a79d8e70d2841d460927ad735dfd93/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/19a79d8e70d2841d460927ad735dfd93/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/d120b1bcf05abc0d4d8a93ada8a0b985/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/d120b1bcf05abc0d4d8a93ada8a0b985/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/ba147519d535e147e0ae10c3f46fd026/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/ba147519d535e147e0ae10c3f46fd026/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/a55cd1f897a45c6b2a4ad6510c1b27dc/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/a55cd1f897a45c6b2a4ad6510c1b27dc/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml

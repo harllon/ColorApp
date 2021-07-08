@@ -1,0 +1,12 @@
+com/example/colorapp/databinding/FragmentViewBinding.java
+ com.example.colorapp.databinding.FragmentViewBinding
+com/example/colorapp/databinding/ActivityMainBinding.java
+ com.example.colorapp.databinding.ActivityMainBinding
+com/example/colorapp/BuildConfig.java
+ com.example.colorapp.BuildConfig
+com/example/colorapp/databinding/FragmentData2Binding.java
+ com.example.colorapp.databinding.FragmentData2Binding
+com/example/colorapp/databinding/FragmentDataBinding.java
+ com.example.colorapp.databinding.FragmentDataBinding
+com/example/colorapp/databinding/FragmentHsvBinding.java
+ com.example.colorapp.databinding.FragmentHsvBinding
