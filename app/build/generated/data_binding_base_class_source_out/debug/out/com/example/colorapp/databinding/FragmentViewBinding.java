@@ -8,6 +8,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.colorapp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -58,7 +59,7 @@ public final class FragmentViewBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.Color_view;
-      View ColorView = rootView.findViewById(id);
+      View ColorView = ViewBindings.findChildViewById(rootView, id);
       if (ColorView == null) {
         break missingId;
       }

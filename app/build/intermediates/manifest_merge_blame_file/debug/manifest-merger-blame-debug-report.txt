@@ -6,41 +6,92 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml
-9        android:targetSdkVersion="30" />
-9-->/home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml
+8-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:5:5-19:19
-12        android:allowBackup="true"
-12-->/home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.5.0] /home/harllon/.gradle/caches/transforms-2/files-2.1/6362d0a31bade151a69ea21cb64289fa/core-1.5.0/AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->/home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->/home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->/home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->/home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:10:9-35
-19        android:theme="@style/Theme.ColorApp" >
-19-->/home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:11:9-46
-20        <activity android:name="com.example.colorapp.MainActivity" >
-20-->/home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:12:9-18:20
-20-->/home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:12:19-47
-21            <intent-filter>
-21-->/home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:13:13-17:29
-22                <action android:name="android.intent.action.MAIN" />
-22-->/home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:14:17-69
-22-->/home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:14:25-66
-23
-24                <category android:name="android.intent.category.LAUNCHER" />
-24-->/home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:16:17-77
-24-->/home/harllon/AndroidStudioProjects/ColorApp/app/src/main/AndroidManifest.xml:16:27-74
-25            </intent-filter>
-26        </activity>
-27    </application>
-28
-29</manifest>
+11-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:5:5-22:19
+12        android:name="com.example.colorapp.ColorApplication"
+12-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:6:9-42
+13        android:allowBackup="false"
+13-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:8:9-36
+14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+14-->[androidx.core:core:1.7.0] /Users/harllonpaz/.gradle/caches/transforms-3/76c9c3aef9b00b1d69139161adeaf2a4/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+15        android:debuggable="true"
+16        android:exported="true"
+16-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:7:9-32
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:12:9-35
+21        android:theme="@style/Theme.ColorApp" >
+21-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:13:9-46
+22        <activity
+22-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:14:9-21:20
+23            android:name="com.example.colorapp.MainActivity"
+23-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:14:19-47
+24            android:exported="true" >
+24-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:15:13-36
+25            <intent-filter>
+25-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:17:17-69
+26-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:19:17-77
+28-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31
+32        <uses-library
+32-->[androidx.window:window:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/b98a9b774ce0d7ebe51a08af2304b84a/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+33            android:name="androidx.window.extensions"
+33-->[androidx.window:window:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/b98a9b774ce0d7ebe51a08af2304b84a/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+34            android:required="false" />
+34-->[androidx.window:window:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/b98a9b774ce0d7ebe51a08af2304b84a/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+35        <uses-library
+35-->[androidx.window:window:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/b98a9b774ce0d7ebe51a08af2304b84a/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+36            android:name="androidx.window.sidecar"
+36-->[androidx.window:window:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/b98a9b774ce0d7ebe51a08af2304b84a/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+37            android:required="false" />
+37-->[androidx.window:window:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/b98a9b774ce0d7ebe51a08af2304b84a/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+38
+39        <provider
+39-->[androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/2f06c75f24fba86574e7b0dcdec9d3e8/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+40            android:name="androidx.startup.InitializationProvider"
+40-->[androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/2f06c75f24fba86574e7b0dcdec9d3e8/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+41            android:authorities="com.example.colorapp.androidx-startup"
+41-->[androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/2f06c75f24fba86574e7b0dcdec9d3e8/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+42            android:exported="false" >
+42-->[androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/2f06c75f24fba86574e7b0dcdec9d3e8/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+43            <meta-data
+43-->[androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/2f06c75f24fba86574e7b0dcdec9d3e8/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+44-->[androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/2f06c75f24fba86574e7b0dcdec9d3e8/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+45                android:value="androidx.startup" />
+45-->[androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/2f06c75f24fba86574e7b0dcdec9d3e8/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+46            <meta-data
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/harllonpaz/.gradle/caches/transforms-3/5c71e5df55af1f375f5c13260f309606/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/harllonpaz/.gradle/caches/transforms-3/5c71e5df55af1f375f5c13260f309606/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+48                android:value="androidx.startup" />
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/harllonpaz/.gradle/caches/transforms-3/5c71e5df55af1f375f5c13260f309606/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+49        </provider>
+50
+51        <service
+51-->[androidx.room:room-runtime:2.4.2] /Users/harllonpaz/.gradle/caches/transforms-3/54a742e3c0f3783aba65791740c7e58f/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+52            android:name="androidx.room.MultiInstanceInvalidationService"
+52-->[androidx.room:room-runtime:2.4.2] /Users/harllonpaz/.gradle/caches/transforms-3/54a742e3c0f3783aba65791740c7e58f/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+53            android:directBootAware="true"
+53-->[androidx.room:room-runtime:2.4.2] /Users/harllonpaz/.gradle/caches/transforms-3/54a742e3c0f3783aba65791740c7e58f/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+54            android:exported="false" />
+54-->[androidx.room:room-runtime:2.4.2] /Users/harllonpaz/.gradle/caches/transforms-3/54a742e3c0f3783aba65791740c7e58f/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+55    </application>
+56
+57</manifest>

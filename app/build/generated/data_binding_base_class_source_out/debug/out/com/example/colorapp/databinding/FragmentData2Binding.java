@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.colorapp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -28,13 +29,17 @@ public final class FragmentData2Binding implements ViewBinding {
   @NonNull
   public final ConstraintLayout frameLayout3;
 
+  @NonNull
+  public final Button saveButton;
+
   private FragmentData2Binding(@NonNull ConstraintLayout rootView,
       @NonNull Button ChangeColorButton, @NonNull EditText HexEditTxt,
-      @NonNull ConstraintLayout frameLayout3) {
+      @NonNull ConstraintLayout frameLayout3, @NonNull Button saveButton) {
     this.rootView = rootView;
     this.ChangeColorButton = ChangeColorButton;
     this.HexEditTxt = HexEditTxt;
     this.frameLayout3 = frameLayout3;
+    this.saveButton = saveButton;
   }
 
   @Override
@@ -65,21 +70,27 @@ public final class FragmentData2Binding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.ChangeColorButton;
-      Button ChangeColorButton = rootView.findViewById(id);
+      Button ChangeColorButton = ViewBindings.findChildViewById(rootView, id);
       if (ChangeColorButton == null) {
         break missingId;
       }
 
       id = R.id.HexEditTxt;
-      EditText HexEditTxt = rootView.findViewById(id);
+      EditText HexEditTxt = ViewBindings.findChildViewById(rootView, id);
       if (HexEditTxt == null) {
         break missingId;
       }
 
       ConstraintLayout frameLayout3 = (ConstraintLayout) rootView;
 
+      id = R.id.saveButton;
+      Button saveButton = ViewBindings.findChildViewById(rootView, id);
+      if (saveButton == null) {
+        break missingId;
+      }
+
       return new FragmentData2Binding((ConstraintLayout) rootView, ChangeColorButton, HexEditTxt,
-          frameLayout3);
+          frameLayout3, saveButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

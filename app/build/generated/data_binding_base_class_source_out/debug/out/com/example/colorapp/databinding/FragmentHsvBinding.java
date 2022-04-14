@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.colorapp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -81,37 +82,37 @@ public final class FragmentHsvBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.Hbar;
-      SeekBar Hbar = rootView.findViewById(id);
+      SeekBar Hbar = ViewBindings.findChildViewById(rootView, id);
       if (Hbar == null) {
         break missingId;
       }
 
       id = R.id.Htextview;
-      TextView Htextview = rootView.findViewById(id);
+      TextView Htextview = ViewBindings.findChildViewById(rootView, id);
       if (Htextview == null) {
         break missingId;
       }
 
       id = R.id.Sbar;
-      SeekBar Sbar = rootView.findViewById(id);
+      SeekBar Sbar = ViewBindings.findChildViewById(rootView, id);
       if (Sbar == null) {
         break missingId;
       }
 
       id = R.id.Stextview;
-      TextView Stextview = rootView.findViewById(id);
+      TextView Stextview = ViewBindings.findChildViewById(rootView, id);
       if (Stextview == null) {
         break missingId;
       }
 
       id = R.id.Vbar;
-      SeekBar Vbar = rootView.findViewById(id);
+      SeekBar Vbar = ViewBindings.findChildViewById(rootView, id);
       if (Vbar == null) {
         break missingId;
       }
 
       id = R.id.Vtextview;
-      TextView Vtextview = rootView.findViewById(id);
+      TextView Vtextview = ViewBindings.findChildViewById(rootView, id);
       if (Vtextview == null) {
         break missingId;
       }

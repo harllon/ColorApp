@@ -8,7 +8,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/ViewContainer"
-        android:name="fragmentos.ViewFragment"
+        android:name="com.example.colorapp.fragmentos.ViewFragment"
         android:layout_width="0dp"
         android:layout_height="335dp"
         android:layout_marginTop="4dp"
@@ -42,6 +42,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Wednesday" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tab5" />
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager2.widget.ViewPager2

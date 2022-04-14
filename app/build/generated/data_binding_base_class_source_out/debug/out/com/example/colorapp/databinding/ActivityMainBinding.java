@@ -9,6 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import androidx.viewpager2.widget.ViewPager2;
 import com.example.colorapp.R;
 import com.google.android.material.tabs.TabLayout;
@@ -65,19 +66,19 @@ public final class ActivityMainBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.DataSlider;
-      ViewPager2 DataSlider = rootView.findViewById(id);
+      ViewPager2 DataSlider = ViewBindings.findChildViewById(rootView, id);
       if (DataSlider == null) {
         break missingId;
       }
 
       id = R.id.Guia;
-      TabLayout Guia = rootView.findViewById(id);
+      TabLayout Guia = ViewBindings.findChildViewById(rootView, id);
       if (Guia == null) {
         break missingId;
       }
 
       id = R.id.ViewContainer;
-      FragmentContainerView ViewContainer = rootView.findViewById(id);
+      FragmentContainerView ViewContainer = ViewBindings.findChildViewById(rootView, id);
       if (ViewContainer == null) {
         break missingId;
       }

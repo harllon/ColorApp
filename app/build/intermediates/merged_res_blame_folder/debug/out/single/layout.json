@@ -1,22 +1,30 @@
 [
     {
-        "merged": "/home/harllon/AndroidStudioProjects/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
-        "source": "/home/harllon/AndroidStudioProjects/ColorApp/app/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_view.xml",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/fragment_view.xml"
     },
     {
-        "merged": "/home/harllon/AndroidStudioProjects/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_hsv.xml",
-        "source": "/home/harllon/AndroidStudioProjects/ColorApp/app/src/main/res/layout/fragment_hsv.xml"
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_saved.xml",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/fragment_saved.xml"
     },
     {
-        "merged": "/home/harllon/AndroidStudioProjects/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_view.xml",
-        "source": "/home/harllon/AndroidStudioProjects/ColorApp/app/src/main/res/layout/fragment_view.xml"
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/home/harllon/AndroidStudioProjects/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_data.xml",
-        "source": "/home/harllon/AndroidStudioProjects/ColorApp/app/src/main/res/layout/fragment_data.xml"
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_hsv.xml",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/fragment_hsv.xml"
     },
     {
-        "merged": "/home/harllon/AndroidStudioProjects/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_data2.xml",
-        "source": "/home/harllon/AndroidStudioProjects/ColorApp/app/src/main/res/layout/fragment_data2.xml"
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/list_color.xml",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/list_color.xml"
+    },
+    {
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_data2.xml",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/fragment_data2.xml"
+    },
+    {
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_data.xml",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/fragment_data.xml"
     }
 ]

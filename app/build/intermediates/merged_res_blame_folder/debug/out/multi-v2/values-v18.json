@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/harllon/AndroidStudioProjects/ColorApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
+            "outputFile": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "/home/harllon/.gradle/caches/transforms-2/files-2.1/046861407ae3d5643548e2ef520d9e4a/appcompat-1.3.0/res/values-v18/values-v18.xml",
+                    "source": "/Users/harllonpaz/.gradle/caches/transforms-3/218c26e111db05778e1bf7f241a89fdc/transformed/appcompat-1.4.1/res/values-v18/values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

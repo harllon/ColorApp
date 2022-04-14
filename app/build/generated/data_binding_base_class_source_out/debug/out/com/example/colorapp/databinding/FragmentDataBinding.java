@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.colorapp.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -82,37 +83,37 @@ public final class FragmentDataBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.Bbar;
-      SeekBar Bbar = rootView.findViewById(id);
+      SeekBar Bbar = ViewBindings.findChildViewById(rootView, id);
       if (Bbar == null) {
         break missingId;
       }
 
       id = R.id.Bvalue_edittxt;
-      EditText BvalueEdittxt = rootView.findViewById(id);
+      EditText BvalueEdittxt = ViewBindings.findChildViewById(rootView, id);
       if (BvalueEdittxt == null) {
         break missingId;
       }
 
       id = R.id.Gbar;
-      SeekBar Gbar = rootView.findViewById(id);
+      SeekBar Gbar = ViewBindings.findChildViewById(rootView, id);
       if (Gbar == null) {
         break missingId;
       }
 
       id = R.id.Gvalue_edittxt;
-      EditText GvalueEdittxt = rootView.findViewById(id);
+      EditText GvalueEdittxt = ViewBindings.findChildViewById(rootView, id);
       if (GvalueEdittxt == null) {
         break missingId;
       }
 
       id = R.id.Rbar;
-      SeekBar Rbar = rootView.findViewById(id);
+      SeekBar Rbar = ViewBindings.findChildViewById(rootView, id);
       if (Rbar == null) {
         break missingId;
       }
 
       id = R.id.Rvalue_edittxt;
-      EditText RvalueEdittxt = rootView.findViewById(id);
+      EditText RvalueEdittxt = ViewBindings.findChildViewById(rootView, id);
       if (RvalueEdittxt == null) {
         break missingId;
       }
