@@ -2680,6 +2680,7 @@ id cache_measures
 id callMeasure
 id cancel_action
 id cancel_button
+id cardView
 id carryVelocity
 id center
 id center_horizontal
@@ -2724,6 +2725,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id deleteButton
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -3267,6 +3269,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string Bvalue
+string Delete
 string Gvalue
 string Hvalue
 string Rvalue

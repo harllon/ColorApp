@@ -11,4 +11,5 @@
     <string name="Svalue">S value</string>
     <string name="Vvalue">V value</string>
     <string name="Save">Save</string>
+    <string name="Delete">Delete</string>
 </resources>

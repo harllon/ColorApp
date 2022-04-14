@@ -12,4 +12,8 @@ class ColorRepository(private val colorDao: ColorDao) {
     suspend fun insert(color: ColorEntity){
         colorDao.insert(color)
     }
+
+    suspend fun deleteAll(){
+        colorDao.deleteAll()
+    }
 }

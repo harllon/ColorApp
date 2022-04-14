@@ -34,15 +34,20 @@ class SavedFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         var listColors = colorRViewModel.getAllColors()
         var adapter = ColorRecyclerAdapter(listColors)
-        savedBinding.colorRecycler.layoutManager = GridLayoutManager(context,2)
+        savedBinding.colorRecycler.layoutManager = GridLayoutManager(context,3)
         savedBinding.colorRecycler.adapter = adapter
         colorRViewModel.allColors.observe(viewLifecycleOwner){
             adapter = ColorRecyclerAdapter(it)
             savedBinding.colorRecycler.adapter = adapter
         }
-
+        delete()
 
 
     }
 
+    private fun delete(){
+        savedBinding.deleteButton.setOnClickListener {
+            colorRViewModel.deleteAll()
+        }
+    }
 }

@@ -24,7 +24,7 @@ class ColorRecyclerAdapter(private val listColors: List<Int>?) :
     }
 
     override fun getItemCount(): Int {
-        return listColors!!.size
+        return listColors?.size ?: 0
     }
 
 }
