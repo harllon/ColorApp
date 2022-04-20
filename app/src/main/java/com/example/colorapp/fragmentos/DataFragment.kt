@@ -1,5 +1,6 @@
 package com.example.colorapp.fragmentos
 
+import android.graphics.Color
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
@@ -10,13 +11,20 @@ import android.view.ViewGroup
 import android.widget.SeekBar
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
+import com.example.colorapp.ColorApplication
+import com.example.colorapp.ColorRoom.ColorEntity
 import com.example.colorapp.databinding.FragmentDataBinding
+import com.example.colorapp.viewModels.ColorRViewModel
+import com.example.colorapp.viewModels.ColorRViewModelFactory
 import com.example.colorapp.viewModels.ProgressoViewModel
 
 class DataFragment : Fragment() {
     private var _binding : FragmentDataBinding? = null
     private val dataBinding get()  = _binding!!
     private val model: ProgressoViewModel by activityViewModels()
+    private val colorRViewModel: ColorRViewModel by activityViewModels{
+        ColorRViewModelFactory((activity?.application as ColorApplication).repository)
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -65,12 +73,13 @@ class DataFragment : Fragment() {
         model.progressoB.observe(viewLifecycleOwner, observerB)
 
         setup()
+        save()
 
     }
 
 
     private fun setup(){
-        //var escrevendo = false
+
         //RED COLOR
 
         dataBinding.RvalueEdittxt.addTextChangedListener(object: TextWatcher{
@@ -150,5 +159,16 @@ class DataFragment : Fragment() {
         })
 
 
+    }
+
+    private fun save(){
+        dataBinding.saveButtonRGB.setOnClickListener {
+            val red = model.getR() ?: 0
+            val green = model.getG() ?: 0
+            val blue = model.getB() ?: 0
+            val colorInt = Color.rgb(red, green, blue)
+            val colString = ColorEntity(colorInt)
+            colorRViewModel.insert(colString)
+        }
     }
 }

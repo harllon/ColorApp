@@ -61,8 +61,8 @@ class SavedFragment : Fragment() {
     }
     @RequiresApi(Build.VERSION_CODES.O)
     private fun doSomenting(value: Int){
-        val color: Color = Color.valueOf(value)
-        val dialog = modalFragment(color)
+        //val color: Color = Color.valueOf(value)
+        val dialog = modalFragment(value)
         dialog.show(parentFragmentManager, dialog.tag)
         //Toast.makeText(context, "opa, cor é: " + value, Toast.LENGTH_SHORT).show()
 

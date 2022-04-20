@@ -18,6 +18,10 @@ class ColorRViewModel(private val repository: ColorRepository): ViewModel() {
         repository.deleteAll()
     }
 
+    fun deleteColor(color: ColorEntity) = viewModelScope.launch {
+        repository.delete(color)
+    }
+
     fun getAllColors(): List<Int>? {
         return allColors.value
     }

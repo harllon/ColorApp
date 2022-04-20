@@ -2949,6 +2949,8 @@ id row_index_key
 id rtl
 id sTextView
 id saveButton
+id saveButtonHSV
+id saveButtonRGB
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth

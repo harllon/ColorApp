@@ -1,5 +1,6 @@
 package com.example.colorapp.fragmentos
 
+import android.graphics.Color
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -8,13 +9,20 @@ import android.view.ViewGroup
 import android.widget.SeekBar
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
+import com.example.colorapp.ColorApplication
+import com.example.colorapp.ColorRoom.ColorEntity
 import com.example.colorapp.databinding.FragmentHsvBinding
+import com.example.colorapp.viewModels.ColorRViewModel
+import com.example.colorapp.viewModels.ColorRViewModelFactory
 import com.example.colorapp.viewModels.ProgressoViewModel
 
 class HsvFragment : Fragment() {
     private var _binding : FragmentHsvBinding? = null
     private val hsvBinding get() = _binding!!
     private val model : ProgressoViewModel by activityViewModels()
+    private val colorRViewModel: ColorRViewModel by activityViewModels{
+        ColorRViewModelFactory((activity?.application as ColorApplication).repository)
+    }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -50,6 +58,7 @@ class HsvFragment : Fragment() {
         model.progressoV.observe(viewLifecycleOwner, observerV)
 
         setup()
+        save()
     }
 
     private fun setup(){
@@ -78,5 +87,16 @@ class HsvFragment : Fragment() {
         })
     }
 
+    private fun save(){
+        hsvBinding.saveButtonHSV.setOnClickListener {
+            val h = model.getH() ?: 0F
+            val s = model.getS() ?: 0F
+            val v = model.getV() ?: 0F
+            val hsv = floatArrayOf(h, s, v)
+            val colorInt = Color.HSVToColor(hsv)
+            val colString = ColorEntity(colorInt)
+            colorRViewModel.insert(colString)
+        }
+    }
 
 }

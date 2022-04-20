@@ -97,9 +97,9 @@ class ViewFragment : Fragment() {
         model.hsv.observe(viewLifecycleOwner, observerHSV)
     }
 
-    private fun changeColorHex(color: Int){
+    /*private fun changeColorHex(color: Int){
         viewBinding.ColorView.setBackgroundColor(color)
-    }
+    }*/
 
     @RequiresApi(Build.VERSION_CODES.O)
     private fun changeColor(redColor:Int?, greenColor:Int?, blueColor:Int?){

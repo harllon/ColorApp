@@ -8,8 +8,8 @@ interface ColorDao {
     @Query("DELETE FROM color_table")
     suspend fun deleteAll()
 
-    /*@Delete
-    fun deleteColor(color: Color)*/
+    @Delete
+    suspend fun deleteColor(color: ColorEntity)
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun insert(color: ColorEntity)

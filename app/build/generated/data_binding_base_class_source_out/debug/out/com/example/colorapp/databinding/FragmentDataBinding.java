@@ -4,6 +4,7 @@ package com.example.colorapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.SeekBar;
 import androidx.annotation.NonNull;
@@ -41,10 +42,13 @@ public final class FragmentDataBinding implements ViewBinding {
   @NonNull
   public final ConstraintLayout frameLayout;
 
+  @NonNull
+  public final Button saveButtonRGB;
+
   private FragmentDataBinding(@NonNull ConstraintLayout rootView, @NonNull SeekBar Bbar,
       @NonNull EditText BvalueEdittxt, @NonNull SeekBar Gbar, @NonNull EditText GvalueEdittxt,
-      @NonNull SeekBar Rbar, @NonNull EditText RvalueEdittxt,
-      @NonNull ConstraintLayout frameLayout) {
+      @NonNull SeekBar Rbar, @NonNull EditText RvalueEdittxt, @NonNull ConstraintLayout frameLayout,
+      @NonNull Button saveButtonRGB) {
     this.rootView = rootView;
     this.Bbar = Bbar;
     this.BvalueEdittxt = BvalueEdittxt;
@@ -53,6 +57,7 @@ public final class FragmentDataBinding implements ViewBinding {
     this.Rbar = Rbar;
     this.RvalueEdittxt = RvalueEdittxt;
     this.frameLayout = frameLayout;
+    this.saveButtonRGB = saveButtonRGB;
   }
 
   @Override
@@ -120,8 +125,14 @@ public final class FragmentDataBinding implements ViewBinding {
 
       ConstraintLayout frameLayout = (ConstraintLayout) rootView;
 
+      id = R.id.saveButtonRGB;
+      Button saveButtonRGB = ViewBindings.findChildViewById(rootView, id);
+      if (saveButtonRGB == null) {
+        break missingId;
+      }
+
       return new FragmentDataBinding((ConstraintLayout) rootView, Bbar, BvalueEdittxt, Gbar,
-          GvalueEdittxt, Rbar, RvalueEdittxt, frameLayout);
+          GvalueEdittxt, Rbar, RvalueEdittxt, frameLayout, saveButtonRGB);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

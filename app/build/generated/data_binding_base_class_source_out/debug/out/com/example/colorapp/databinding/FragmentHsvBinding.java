@@ -4,6 +4,7 @@ package com.example.colorapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -41,9 +42,13 @@ public final class FragmentHsvBinding implements ViewBinding {
   @NonNull
   public final ConstraintLayout frameLayout4;
 
+  @NonNull
+  public final Button saveButtonHSV;
+
   private FragmentHsvBinding(@NonNull ConstraintLayout rootView, @NonNull SeekBar Hbar,
       @NonNull TextView Htextview, @NonNull SeekBar Sbar, @NonNull TextView Stextview,
-      @NonNull SeekBar Vbar, @NonNull TextView Vtextview, @NonNull ConstraintLayout frameLayout4) {
+      @NonNull SeekBar Vbar, @NonNull TextView Vtextview, @NonNull ConstraintLayout frameLayout4,
+      @NonNull Button saveButtonHSV) {
     this.rootView = rootView;
     this.Hbar = Hbar;
     this.Htextview = Htextview;
@@ -52,6 +57,7 @@ public final class FragmentHsvBinding implements ViewBinding {
     this.Vbar = Vbar;
     this.Vtextview = Vtextview;
     this.frameLayout4 = frameLayout4;
+    this.saveButtonHSV = saveButtonHSV;
   }
 
   @Override
@@ -119,8 +125,14 @@ public final class FragmentHsvBinding implements ViewBinding {
 
       ConstraintLayout frameLayout4 = (ConstraintLayout) rootView;
 
+      id = R.id.saveButtonHSV;
+      Button saveButtonHSV = ViewBindings.findChildViewById(rootView, id);
+      if (saveButtonHSV == null) {
+        break missingId;
+      }
+
       return new FragmentHsvBinding((ConstraintLayout) rootView, Hbar, Htextview, Sbar, Stextview,
-          Vbar, Vtextview, frameLayout4);
+          Vbar, Vtextview, frameLayout4, saveButtonHSV);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
