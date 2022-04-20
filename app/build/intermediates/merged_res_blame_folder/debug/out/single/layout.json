@@ -12,12 +12,12 @@
         "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_hsv.xml",
-        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/fragment_hsv.xml"
-    },
-    {
         "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/list_color.xml",
         "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/list_color.xml"
+    },
+    {
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_hsv.xml",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/fragment_hsv.xml"
     },
     {
         "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_data2.xml",
@@ -26,5 +26,9 @@
     {
         "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_data.xml",
         "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/fragment_data.xml"
+    },
+    {
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_template.xml",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/dialog_template.xml"
     }
 ]

@@ -39,6 +39,7 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /Users/harllonpaz/.gra
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] /Users/harllonpaz/.gradle/caches/transforms-3/5dcf2c4306c837289111ee0662453697/transformed/lifecycle-livedata-core-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] /Users/harllonpaz/.gradle/caches/transforms-3/7278e9a30f8180e137dadfce8c3297a6/transformed/lifecycle-livedata-core-2.4.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.7.0] /Users/harllonpaz/.gradle/caches/transforms-3/9562af80812b63d241057940422e7a69/transformed/core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/1b8adb8c06d88c6583d040627c721520/transformed/recyclerview-selection-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/harllonpaz/.gradle/caches/transforms-3/e15ea28c141538356ed7a34d2c0df944/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/5d372d9778ef0312e7eb7d3e9120108a/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/2f06c75f24fba86574e7b0dcdec9d3e8/transformed/emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
@@ -216,6 +217,8 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] /Users/harllonpaz
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] /Users/harllonpaz/.gradle/caches/transforms-3/7278e9a30f8180e137dadfce8c3297a6/transformed/lifecycle-livedata-core-2.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.7.0] /Users/harllonpaz/.gradle/caches/transforms-3/9562af80812b63d241057940422e7a69/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.7.0] /Users/harllonpaz/.gradle/caches/transforms-3/9562af80812b63d241057940422e7a69/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/1b8adb8c06d88c6583d040627c721520/transformed/recyclerview-selection-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/1b8adb8c06d88c6583d040627c721520/transformed/recyclerview-selection-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/harllonpaz/.gradle/caches/transforms-3/e15ea28c141538356ed7a34d2c0df944/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/harllonpaz/.gradle/caches/transforms-3/e15ea28c141538356ed7a34d2c0df944/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/5d372d9778ef0312e7eb7d3e9120108a/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41

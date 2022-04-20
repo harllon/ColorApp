@@ -12,4 +12,7 @@
     <string name="Vvalue">V value</string>
     <string name="Save">Save</string>
     <string name="Delete">Delete</string>
+    <string name="ColorDetails">Color Details</string>
+    <string name="RGB">RGB</string>
+    <string name="HSV">HSV</string>
 </resources>

@@ -8,6 +8,10 @@
         "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/list_color.xml"
     },
     {
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/drawable_item_background.xml.flat",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/drawable/item_background.xml"
+    },
+    {
         "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
@@ -42,6 +46,10 @@
     {
         "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/layout_fragment_view.xml.flat",
         "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/fragment_view.xml"
+    },
+    {
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/layout_dialog_template.xml.flat",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/dialog_template.xml"
     },
     {
         "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",

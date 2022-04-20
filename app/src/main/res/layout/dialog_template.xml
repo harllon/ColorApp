@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/colorDetailsTextView"
+        android:layout_width="204dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:text="@string/ColorDetails"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <Button
+        android:id="@+id/deleteSingleColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Delete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colorDetailsTextView"
+        app:layout_constraintVertical_bias="0.951" />
+
+    <TextView
+        android:id="@+id/rgbTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/RGB"
+        app:layout_constraintBottom_toTopOf="@+id/deleteSingleColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colorDetailsTextView"
+        app:layout_constraintVertical_bias="0.157" />
+
+    <TextView
+        android:id="@+id/hsvTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/HSV"
+        app:layout_constraintBottom_toTopOf="@+id/deleteSingleColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.776"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colorDetailsTextView"
+        app:layout_constraintVertical_bias="0.157" />
+
+    <TextView
+        android:id="@+id/rTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/deleteSingleColor"
+        app:layout_constraintEnd_toStartOf="@+id/hTextView"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgbTextView"
+        app:layout_constraintVertical_bias="0.164" />
+
+    <TextView
+        android:id="@+id/gTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/deleteSingleColor"
+        app:layout_constraintEnd_toStartOf="@+id/sTextView"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rTextView"
+        app:layout_constraintVertical_bias="0.248" />
+
+    <TextView
+        android:id="@+id/bTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/deleteSingleColor"
+        app:layout_constraintEnd_toStartOf="@+id/vTextView"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gTextView"
+        app:layout_constraintVertical_bias="0.434" />
+
+    <TextView
+        android:id="@+id/hTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/deleteSingleColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hsvTextView"
+        app:layout_constraintVertical_bias="0.165" />
+
+    <TextView
+        android:id="@+id/sTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/deleteSingleColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hTextView"
+        app:layout_constraintVertical_bias="0.248" />
+
+    <TextView
+        android:id="@+id/vTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/deleteSingleColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sTextView"
+        app:layout_constraintVertical_bias="0.434" />
+</androidx.constraintlayout.widget.ConstraintLayout>
