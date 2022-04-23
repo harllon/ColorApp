@@ -1,10 +1,9 @@
 package com.example.colorapp.viewModels
 
-import android.graphics.Color
-import com.example.colorapp.ColorRoom.ColorRepository
+import com.example.colorapp.colorRoom.ColorRepository
 
 import androidx.lifecycle.*
-import com.example.colorapp.ColorRoom.ColorEntity
+import com.example.colorapp.colorRoom.ColorEntity
 import kotlinx.coroutines.launch
 
 class ColorRViewModel(private val repository: ColorRepository): ViewModel() {

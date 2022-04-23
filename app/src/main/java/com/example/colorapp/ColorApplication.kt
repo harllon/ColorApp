@@ -1,8 +1,8 @@
 package com.example.colorapp
 
 import android.app.Application
-import com.example.colorapp.ColorRoom.ColorDatabase
-import com.example.colorapp.ColorRoom.ColorRepository
+import com.example.colorapp.colorRoom.ColorDatabase
+import com.example.colorapp.colorRoom.ColorRepository
 
 class ColorApplication : Application() {
     val database by lazy { ColorDatabase.getDatabase(this) }

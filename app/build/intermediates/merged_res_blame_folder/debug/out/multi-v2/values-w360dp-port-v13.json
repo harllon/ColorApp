@@ -4,7 +4,7 @@
             "outputFile": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-port-v13/values-w360dp-port-v13.xml",
             "map": [
                 {
-                    "source": "/Users/harllonpaz/.gradle/caches/transforms-3/5e1783e354b9308a658e1d31bd29f5bf/transformed/material-1.5.0/res/values-w360dp-port-v13/values-w360dp-port-v13.xml",
+                    "source": "/Users/harllonpaz/.gradle/caches/transforms-3/58c4ee817c54522eebc925251af20224/transformed/material-1.5.0/res/values-w360dp-port-v13/values-w360dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

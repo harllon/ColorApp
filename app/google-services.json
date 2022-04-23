@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1059651684455",
+    "project_id": "colorapp-213df",
+    "storage_bucket": "colorapp-213df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059651684455:android:5d11e2bcf3b3013003ecc2",
+        "android_client_info": {
+          "package_name": "com.example.colorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059651684455-a7c30paaip693udv7t1kn2heu7mj9vvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyHFhyMGu6TeIsQ0rer_IrsTXU1HHqkfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059651684455-a7c30paaip693udv7t1kn2heu7mj9vvc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

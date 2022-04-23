@@ -4,7 +4,7 @@
             "outputFile": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/harllonpaz/.gradle/caches/transforms-3/218c26e111db05778e1bf7f241a89fdc/transformed/appcompat-1.4.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/Users/harllonpaz/.gradle/caches/transforms-3/826dd19f52a7fb9ae3da363bc3f20c27/transformed/appcompat-1.4.1/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,4 +1,4 @@
-package com.example.colorapp.ColorRoom
+package com.example.colorapp.colorRoom
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

@@ -4,6 +4,7 @@ package com.example.colorapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -30,12 +31,17 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final FragmentContainerView ViewContainer;
 
+  @NonNull
+  public final Button signOutButton;
+
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull ViewPager2 DataSlider,
-      @NonNull TabLayout Guia, @NonNull FragmentContainerView ViewContainer) {
+      @NonNull TabLayout Guia, @NonNull FragmentContainerView ViewContainer,
+      @NonNull Button signOutButton) {
     this.rootView = rootView;
     this.DataSlider = DataSlider;
     this.Guia = Guia;
     this.ViewContainer = ViewContainer;
+    this.signOutButton = signOutButton;
   }
 
   @Override
@@ -83,7 +89,14 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, DataSlider, Guia, ViewContainer);
+      id = R.id.signOutButton;
+      Button signOutButton = ViewBindings.findChildViewById(rootView, id);
+      if (signOutButton == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, DataSlider, Guia, ViewContainer,
+          signOutButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

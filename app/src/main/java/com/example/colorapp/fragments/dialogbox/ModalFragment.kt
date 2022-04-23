@@ -1,4 +1,4 @@
-package com.example.colorapp.fragmentos
+package com.example.colorapp.fragments.dialogbox
 
 import android.graphics.Color
 import android.os.Build
@@ -7,20 +7,17 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.WindowManager
 import android.widget.Button
 import android.widget.TextView
 import androidx.annotation.RequiresApi
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.activityViewModels
 import com.example.colorapp.ColorApplication
-import com.example.colorapp.ColorRoom.ColorEntity
+import com.example.colorapp.colorRoom.ColorEntity
 import com.example.colorapp.R
 import com.example.colorapp.viewModels.ColorRViewModel
 import com.example.colorapp.viewModels.ColorRViewModelFactory
-import kotlin.math.round
 import kotlin.math.roundToInt
-import kotlin.math.roundToLong
 
 
 class modalFragment(private val color: Int) : DialogFragment() {

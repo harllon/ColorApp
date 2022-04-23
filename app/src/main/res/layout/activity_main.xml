@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".activities.MainActivity">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/ViewContainer"
-        android:name="com.example.colorapp.fragmentos.ViewFragment"
-        android:layout_width="0dp"
-        android:layout_height="335dp"
+        android:name="com.example.colorapp.fragments.ViewFragment"
+        android:layout_width="252dp"
+        android:layout_height="172dp"
         android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -51,15 +51,26 @@
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/DataSlider"
-        android:layout_width="393dp"
-        android:layout_height="416dp"
+        android:layout_width="389dp"
+        android:layout_height="383dp"
         app:layout_constraintBottom_toBottomOf="@+id/Guia"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.867">
+        app:layout_constraintVertical_bias="0.862">
 
     </androidx.viewpager2.widget.ViewPager2>
+
+    <Button
+        android:id="@+id/signOutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SignOut"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.297" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

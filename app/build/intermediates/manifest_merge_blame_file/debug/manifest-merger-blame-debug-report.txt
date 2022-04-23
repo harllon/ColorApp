@@ -10,88 +10,288 @@
 9        android:targetSdkVersion="31" />
 9-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml
 10
-11    <application
-11-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:5:5-22:19
-12        android:name="com.example.colorapp.ColorApplication"
-12-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:6:9-42
-13        android:allowBackup="false"
-13-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:8:9-36
-14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-14-->[androidx.core:core:1.7.0] /Users/harllonpaz/.gradle/caches/transforms-3/76c9c3aef9b00b1d69139161adeaf2a4/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
-15        android:debuggable="true"
-16        android:exported="true"
-16-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:7:9-32
-17        android:icon="@mipmap/ic_launcher"
-17-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:9:9-43
-18        android:label="@string/app_name"
-18-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:10:9-41
-19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:11:9-54
-20        android:supportsRtl="true"
-20-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:12:9-35
-21        android:theme="@style/Theme.ColorApp" >
-21-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:13:9-46
-22        <activity
-22-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:14:9-21:20
-23            android:name="com.example.colorapp.MainActivity"
-23-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:14:19-47
-24            android:exported="true" >
-24-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:15:13-36
-25            <intent-filter>
-25-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:16:13-20:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:17:17-69
-26-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:17:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:19:17-77
-28-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:19:27-74
-29            </intent-filter>
-30        </activity>
-31
-32        <uses-library
-32-->[androidx.window:window:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/b98a9b774ce0d7ebe51a08af2304b84a/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
-33            android:name="androidx.window.extensions"
-33-->[androidx.window:window:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/b98a9b774ce0d7ebe51a08af2304b84a/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
-34            android:required="false" />
-34-->[androidx.window:window:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/b98a9b774ce0d7ebe51a08af2304b84a/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
-35        <uses-library
-35-->[androidx.window:window:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/b98a9b774ce0d7ebe51a08af2304b84a/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
-36            android:name="androidx.window.sidecar"
-36-->[androidx.window:window:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/b98a9b774ce0d7ebe51a08af2304b84a/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
-37            android:required="false" />
-37-->[androidx.window:window:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/b98a9b774ce0d7ebe51a08af2304b84a/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
-38
-39        <provider
-39-->[androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/2f06c75f24fba86574e7b0dcdec9d3e8/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-40            android:name="androidx.startup.InitializationProvider"
-40-->[androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/2f06c75f24fba86574e7b0dcdec9d3e8/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
-41            android:authorities="com.example.colorapp.androidx-startup"
-41-->[androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/2f06c75f24fba86574e7b0dcdec9d3e8/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
-42            android:exported="false" >
-42-->[androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/2f06c75f24fba86574e7b0dcdec9d3e8/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
-43            <meta-data
-43-->[androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/2f06c75f24fba86574e7b0dcdec9d3e8/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-44-->[androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/2f06c75f24fba86574e7b0dcdec9d3e8/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
-45                android:value="androidx.startup" />
-45-->[androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/2f06c75f24fba86574e7b0dcdec9d3e8/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
-46            <meta-data
-46-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/harllonpaz/.gradle/caches/transforms-3/5c71e5df55af1f375f5c13260f309606/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-47-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/harllonpaz/.gradle/caches/transforms-3/5c71e5df55af1f375f5c13260f309606/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-48                android:value="androidx.startup" />
-48-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/harllonpaz/.gradle/caches/transforms-3/5c71e5df55af1f375f5c13260f309606/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-49        </provider>
-50
-51        <service
-51-->[androidx.room:room-runtime:2.4.2] /Users/harllonpaz/.gradle/caches/transforms-3/54a742e3c0f3783aba65791740c7e58f/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
-52            android:name="androidx.room.MultiInstanceInvalidationService"
-52-->[androidx.room:room-runtime:2.4.2] /Users/harllonpaz/.gradle/caches/transforms-3/54a742e3c0f3783aba65791740c7e58f/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
-53            android:directBootAware="true"
-53-->[androidx.room:room-runtime:2.4.2] /Users/harllonpaz/.gradle/caches/transforms-3/54a742e3c0f3783aba65791740c7e58f/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
-54            android:exported="false" />
-54-->[androidx.room:room-runtime:2.4.2] /Users/harllonpaz/.gradle/caches/transforms-3/54a742e3c0f3783aba65791740c7e58f/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
-55    </application>
-56
-57</manifest>
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:23:5-67
+11-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:23:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:24:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/226421430c9916a065565a358b3856ba/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/226421430c9916a065565a358b3856ba/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+14-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/226421430c9916a065565a358b3856ba/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:25:5-79
+14-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/226421430c9916a065565a358b3856ba/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:25:22-76
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/ab3d478528c99e0d2c16172258d864d5/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/ab3d478528c99e0d2c16172258d864d5/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:26:22-107
+16
+17    <application
+17-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:6:5-29:19
+18        android:name="com.example.colorapp.ColorApplication"
+18-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:7:9-41
+19        android:allowBackup="false"
+19-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:9:9-36
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] /Users/harllonpaz/.gradle/caches/transforms-3/3e48a17e3e893a421e16dba2120a265c/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:exported="true"
+22-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:10:9-32
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:11:9-43
+24        android:label="@string/app_name"
+24-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:12:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:13:9-54
+26        android:supportsRtl="true"
+26-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:14:9-35
+27        android:theme="@style/Theme.ColorApp"
+27-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:15:9-46
+28        android:usesCleartextTraffic="true" >
+28-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:8:9-44
+29        <activity
+29-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:17:9-24:24
+30            android:name="com.example.colorapp.activities.LoginActivity"
+30-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:18:13-53
+31            android:exported="true" >
+31-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:19:13-36
+32            <intent-filter>
+32-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:20:13-23:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:21:17-69
+33-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:21:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:22:17-77
+35-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:22:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:25:9-28:20
+39            android:name="com.example.colorapp.activities.MainActivity"
+39-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:26:13-52
+40            android:exported="true" >
+40-->/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/AndroidManifest.xml:27:13-36
+41        </activity>
+42
+43        <service
+43-->[com.google.firebase:firebase-auth-ktx:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/623230484401241a31feb2af640aa30e/transformed/firebase-auth-ktx-21.0.3/AndroidManifest.xml:8:9-14:19
+44            android:name="com.google.firebase.components.ComponentDiscoveryService"
+44-->[com.google.firebase:firebase-auth-ktx:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/623230484401241a31feb2af640aa30e/transformed/firebase-auth-ktx-21.0.3/AndroidManifest.xml:9:13-84
+45            android:directBootAware="true"
+45-->[com.google.firebase:firebase-common:20.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/7db517d452c0573d6f07ac49f76e4e65/transformed/firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+46            android:exported="false" >
+46-->[com.google.firebase:firebase-auth-ktx:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/623230484401241a31feb2af640aa30e/transformed/firebase-auth-ktx-21.0.3/AndroidManifest.xml:10:13-37
+47            <meta-data
+47-->[com.google.firebase:firebase-auth-ktx:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/623230484401241a31feb2af640aa30e/transformed/firebase-auth-ktx-21.0.3/AndroidManifest.xml:11:13-13:85
+48                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+48-->[com.google.firebase:firebase-auth-ktx:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/623230484401241a31feb2af640aa30e/transformed/firebase-auth-ktx-21.0.3/AndroidManifest.xml:12:17-116
+49                android:value="com.google.firebase.components.ComponentRegistrar" />
+49-->[com.google.firebase:firebase-auth-ktx:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/623230484401241a31feb2af640aa30e/transformed/firebase-auth-ktx-21.0.3/AndroidManifest.xml:13:17-82
+50            <meta-data
+50-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:67:13-69:85
+51                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+51-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:68:17-109
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:69:17-82
+53            <meta-data
+53-->[com.google.firebase:firebase-analytics-ktx:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/73ab8ad7bc383d0e97160089a9de0bca/transformed/firebase-analytics-ktx-20.1.2/AndroidManifest.xml:11:13-13:85
+54                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+54-->[com.google.firebase:firebase-analytics-ktx:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/73ab8ad7bc383d0e97160089a9de0bca/transformed/firebase-analytics-ktx-20.1.2/AndroidManifest.xml:12:17-126
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.firebase:firebase-analytics-ktx:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/73ab8ad7bc383d0e97160089a9de0bca/transformed/firebase-analytics-ktx-20.1.2/AndroidManifest.xml:13:17-82
+56            <meta-data
+56-->[com.google.firebase:firebase-common-ktx:20.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/b9f0d904fabe967caf0c4469916e0e4f/transformed/firebase-common-ktx-20.1.0/AndroidManifest.xml:15:13-17:85
+57                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+57-->[com.google.firebase:firebase-common-ktx:20.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/b9f0d904fabe967caf0c4469916e0e4f/transformed/firebase-common-ktx-20.1.0/AndroidManifest.xml:16:17-113
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-common-ktx:20.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/b9f0d904fabe967caf0c4469916e0e4f/transformed/firebase-common-ktx-20.1.0/AndroidManifest.xml:17:17-82
+59            <meta-data
+59-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/226421430c9916a065565a358b3856ba/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:31:13-33:85
+60                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+60-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/226421430c9916a065565a358b3856ba/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:32:17-139
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.android.gms:play-services-measurement-api:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/226421430c9916a065565a358b3856ba/transformed/play-services-measurement-api-20.1.2/AndroidManifest.xml:33:17-82
+62            <meta-data
+62-->[com.google.firebase:firebase-installations:17.0.1] /Users/harllonpaz/.gradle/caches/transforms-3/4ebfcbe813eefa6282781ec1b9a026a1/transformed/firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+63                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+63-->[com.google.firebase:firebase-installations:17.0.1] /Users/harllonpaz/.gradle/caches/transforms-3/4ebfcbe813eefa6282781ec1b9a026a1/transformed/firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-installations:17.0.1] /Users/harllonpaz/.gradle/caches/transforms-3/4ebfcbe813eefa6282781ec1b9a026a1/transformed/firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+65        </service>
+66
+67        <activity
+67-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:27:9-44:20
+68            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+68-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:28:13-80
+69            android:excludeFromRecents="true"
+69-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:29:13-46
+70            android:exported="true"
+70-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:30:13-36
+71            android:launchMode="singleTask"
+71-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:31:13-44
+72            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+72-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:32:13-72
+73            <intent-filter>
+73-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:33:13-43:29
+74                <action android:name="android.intent.action.VIEW" />
+74-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:17-69
+74-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:25-66
+75
+76                <category android:name="android.intent.category.DEFAULT" />
+76-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:17-76
+76-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:27-73
+77                <category android:name="android.intent.category.BROWSABLE" />
+77-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
+77-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
+78
+79                <data
+79-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
+80                    android:host="firebase.auth"
+80-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
+81                    android:path="/"
+81-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:41:21-37
+82                    android:scheme="genericidp" />
+82-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
+83            </intent-filter>
+84        </activity>
+85        <activity
+85-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:45:9-62:20
+86            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+86-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:46:13-79
+87            android:excludeFromRecents="true"
+87-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:47:13-46
+88            android:exported="true"
+88-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:48:13-36
+89            android:launchMode="singleTask"
+89-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:49:13-44
+90            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+90-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:50:13-72
+91            <intent-filter>
+91-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:51:13-61:29
+92                <action android:name="android.intent.action.VIEW" />
+92-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:17-69
+92-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:34:25-66
+93
+94                <category android:name="android.intent.category.DEFAULT" />
+94-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:17-76
+94-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:36:27-73
+95                <category android:name="android.intent.category.BROWSABLE" />
+95-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:17-78
+95-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:37:27-75
+96
+97                <data
+97-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:39:17-42:51
+98                    android:host="firebase.auth"
+98-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:40:21-49
+99                    android:path="/"
+99-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:41:21-37
+100                    android:scheme="recaptcha" />
+100-->[com.google.firebase:firebase-auth:21.0.3] /Users/harllonpaz/.gradle/caches/transforms-3/c5d77effdb33ef8b92b7c1ef8d633bfc/transformed/firebase-auth-21.0.3/AndroidManifest.xml:42:21-48
+101            </intent-filter>
+102        </activity>
+103
+104        <uses-library
+104-->[androidx.window:window:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/a307cb2af4180f8d160b978c080d1ad6/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+105            android:name="androidx.window.extensions"
+105-->[androidx.window:window:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/a307cb2af4180f8d160b978c080d1ad6/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+106            android:required="false" />
+106-->[androidx.window:window:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/a307cb2af4180f8d160b978c080d1ad6/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+107        <uses-library
+107-->[androidx.window:window:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/a307cb2af4180f8d160b978c080d1ad6/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+108            android:name="androidx.window.sidecar"
+108-->[androidx.window:window:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/a307cb2af4180f8d160b978c080d1ad6/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+109            android:required="false" />
+109-->[androidx.window:window:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/a307cb2af4180f8d160b978c080d1ad6/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+110
+111        <provider
+111-->[com.google.firebase:firebase-common:20.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/7db517d452c0573d6f07ac49f76e4e65/transformed/firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+112            android:name="com.google.firebase.provider.FirebaseInitProvider"
+112-->[com.google.firebase:firebase-common:20.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/7db517d452c0573d6f07ac49f76e4e65/transformed/firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+113            android:authorities="com.example.colorapp.firebaseinitprovider"
+113-->[com.google.firebase:firebase-common:20.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/7db517d452c0573d6f07ac49f76e4e65/transformed/firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+114            android:directBootAware="true"
+114-->[com.google.firebase:firebase-common:20.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/7db517d452c0573d6f07ac49f76e4e65/transformed/firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+115            android:exported="false"
+115-->[com.google.firebase:firebase-common:20.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/7db517d452c0573d6f07ac49f76e4e65/transformed/firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+116            android:initOrder="100" />
+116-->[com.google.firebase:firebase-common:20.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/7db517d452c0573d6f07ac49f76e4e65/transformed/firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+117
+118        <receiver
+118-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/ab3d478528c99e0d2c16172258d864d5/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:29:9-33:20
+119            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+119-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/ab3d478528c99e0d2c16172258d864d5/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:30:13-85
+120            android:enabled="true"
+120-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/ab3d478528c99e0d2c16172258d864d5/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:31:13-35
+121            android:exported="false" >
+121-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/ab3d478528c99e0d2c16172258d864d5/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:32:13-37
+122        </receiver>
+123
+124        <service
+124-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/ab3d478528c99e0d2c16172258d864d5/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:35:9-38:40
+125            android:name="com.google.android.gms.measurement.AppMeasurementService"
+125-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/ab3d478528c99e0d2c16172258d864d5/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:36:13-84
+126            android:enabled="true"
+126-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/ab3d478528c99e0d2c16172258d864d5/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:37:13-35
+127            android:exported="false" />
+127-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/ab3d478528c99e0d2c16172258d864d5/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:38:13-37
+128        <service
+128-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/ab3d478528c99e0d2c16172258d864d5/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:39:9-43:72
+129            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+129-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/ab3d478528c99e0d2c16172258d864d5/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:40:13-87
+130            android:enabled="true"
+130-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/ab3d478528c99e0d2c16172258d864d5/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:41:13-35
+131            android:exported="false"
+131-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/ab3d478528c99e0d2c16172258d864d5/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:42:13-37
+132            android:permission="android.permission.BIND_JOB_SERVICE" />
+132-->[com.google.android.gms:play-services-measurement:20.1.2] /Users/harllonpaz/.gradle/caches/transforms-3/ab3d478528c99e0d2c16172258d864d5/transformed/play-services-measurement-20.1.2/AndroidManifest.xml:43:13-69
+133
+134        <activity
+134-->[com.google.android.gms:play-services-base:17.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/e3dbddd83cf89b9dbc4475984aab5024/transformed/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+135            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+135-->[com.google.android.gms:play-services-base:17.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/e3dbddd83cf89b9dbc4475984aab5024/transformed/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+136            android:exported="false"
+136-->[com.google.android.gms:play-services-base:17.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/e3dbddd83cf89b9dbc4475984aab5024/transformed/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+137            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+137-->[com.google.android.gms:play-services-base:17.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/e3dbddd83cf89b9dbc4475984aab5024/transformed/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+138
+139        <meta-data
+139-->[com.google.android.gms:play-services-basement:18.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/04e2e84e70f89c8802304fd66464814e/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+140            android:name="com.google.android.gms.version"
+140-->[com.google.android.gms:play-services-basement:18.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/04e2e84e70f89c8802304fd66464814e/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+141            android:value="@integer/google_play_services_version" />
+141-->[com.google.android.gms:play-services-basement:18.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/04e2e84e70f89c8802304fd66464814e/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+142
+143        <provider
+143-->[androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/a3ef9532b86fc72d03cc50e9afffd6ec/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+144            android:name="androidx.startup.InitializationProvider"
+144-->[androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/a3ef9532b86fc72d03cc50e9afffd6ec/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+145            android:authorities="com.example.colorapp.androidx-startup"
+145-->[androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/a3ef9532b86fc72d03cc50e9afffd6ec/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+146            android:exported="false" >
+146-->[androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/a3ef9532b86fc72d03cc50e9afffd6ec/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+147            <meta-data
+147-->[androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/a3ef9532b86fc72d03cc50e9afffd6ec/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+148                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+148-->[androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/a3ef9532b86fc72d03cc50e9afffd6ec/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+149                android:value="androidx.startup" />
+149-->[androidx.emoji2:emoji2:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/a3ef9532b86fc72d03cc50e9afffd6ec/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+150            <meta-data
+150-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/harllonpaz/.gradle/caches/transforms-3/b0bb9d8d75e3b693a86473837ce0a0e2/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+151                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+151-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/harllonpaz/.gradle/caches/transforms-3/b0bb9d8d75e3b693a86473837ce0a0e2/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+152                android:value="androidx.startup" />
+152-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/harllonpaz/.gradle/caches/transforms-3/b0bb9d8d75e3b693a86473837ce0a0e2/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+153        </provider>
+154
+155        <service
+155-->[androidx.room:room-runtime:2.4.2] /Users/harllonpaz/.gradle/caches/transforms-3/34d518224fb24e4d6bf704da81c6339c/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+156            android:name="androidx.room.MultiInstanceInvalidationService"
+156-->[androidx.room:room-runtime:2.4.2] /Users/harllonpaz/.gradle/caches/transforms-3/34d518224fb24e4d6bf704da81c6339c/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+157            android:directBootAware="true"
+157-->[androidx.room:room-runtime:2.4.2] /Users/harllonpaz/.gradle/caches/transforms-3/34d518224fb24e4d6bf704da81c6339c/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+158            android:exported="false" />
+158-->[androidx.room:room-runtime:2.4.2] /Users/harllonpaz/.gradle/caches/transforms-3/34d518224fb24e4d6bf704da81c6339c/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+159    </application>
+160
+161</manifest>

@@ -3,10 +3,10 @@ package com.example.colorapp.adapters
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.example.colorapp.fragmentos.Data2Fragment
-import com.example.colorapp.fragmentos.DataFragment
-import com.example.colorapp.fragmentos.HsvFragment
-import com.example.colorapp.fragmentos.SavedFragment
+import com.example.colorapp.fragments.Data2Fragment
+import com.example.colorapp.fragments.DataFragment
+import com.example.colorapp.fragments.HsvFragment
+import com.example.colorapp.fragments.SavedFragment
 
 class DataSliderAdapter(activity: AppCompatActivity, val itemsCount: Int): FragmentStateAdapter(activity) {
     override fun createFragment(position: Int): Fragment = when(position){

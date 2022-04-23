@@ -1,4 +1,4 @@
-package com.example.colorapp.ColorRoom
+package com.example.colorapp.colorRoom
 
 import androidx.room.*
 import kotlinx.coroutines.flow.Flow

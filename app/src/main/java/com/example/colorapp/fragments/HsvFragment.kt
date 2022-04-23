@@ -1,4 +1,4 @@
-package com.example.colorapp.fragmentos
+package com.example.colorapp.fragments
 
 import android.graphics.Color
 import android.os.Bundle
@@ -10,7 +10,7 @@ import android.widget.SeekBar
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
 import com.example.colorapp.ColorApplication
-import com.example.colorapp.ColorRoom.ColorEntity
+import com.example.colorapp.colorRoom.ColorEntity
 import com.example.colorapp.databinding.FragmentHsvBinding
 import com.example.colorapp.viewModels.ColorRViewModel
 import com.example.colorapp.viewModels.ColorRViewModelFactory

@@ -8,8 +8,16 @@
         "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/fragment_saved.xml"
     },
     {
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/activity_login.xml"
+    },
+    {
         "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
         "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/register_dialog.xml",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/register_dialog.xml"
     },
     {
         "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/list_color.xml",

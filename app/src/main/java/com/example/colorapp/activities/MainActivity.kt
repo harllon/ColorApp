@@ -1,13 +1,18 @@
-package com.example.colorapp
+package com.example.colorapp.activities
 
+import android.content.Intent
 import com.example.colorapp.adapters.DataSliderAdapter
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.colorapp.databinding.ActivityMainBinding
 import com.google.android.material.tabs.TabLayoutMediator
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 class MainActivity : AppCompatActivity() {
     private lateinit var main_binding: ActivityMainBinding
+    private lateinit var auth: FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         main_binding = ActivityMainBinding.inflate(layoutInflater)
@@ -21,8 +26,20 @@ class MainActivity : AppCompatActivity() {
             3 -> tab.text = "Saved Colors"
         }}.attach()
         //change()
+        signOut()
     }
 
+    private fun signOut(){
+        main_binding.signOutButton.setOnClickListener {
+            auth = Firebase.auth
+            auth.signOut()
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
+
+
+
+    }
     /*fun change(){
         main_binding.changeButton.setOnClickListener {
             val colorHex = main_binding.colorEditTxt.text.toString()

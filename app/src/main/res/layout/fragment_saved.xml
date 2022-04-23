@@ -5,7 +5,7 @@
     android:id="@+id/frameLayout5"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragmentos.SavedFragment" >
+    tools:context=".fragments.SavedFragment" >
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/colorRecycler"
