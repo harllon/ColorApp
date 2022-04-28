@@ -10,16 +10,21 @@
     app:cardCornerRadius="5dp"
     app:cardElevation="8dp">
 
-    <View
-        android:id="@+id/colorView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-
+    <androidx.cardview.widget.CardView
+        android:id="@+id/circleColorViewRecycler"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:foregroundGravity="center"
+        app:cardBackgroundColor="#DD2D2D"
+        app:cardCornerRadius="160dp"
+        app:cardElevation="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintHorizontal_bias="0.102"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

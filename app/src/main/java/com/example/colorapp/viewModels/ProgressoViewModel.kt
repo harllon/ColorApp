@@ -51,14 +51,14 @@ class ProgressoViewModel: ViewModel() {
         progressoB.value = value
         fromUser = AccessMode
     }
-    fun getR() : Int?{
-        return progressoR.value
+    fun getR() : Int{
+        return progressoR.value ?: 0
     }
-    fun getG() : Int?{
-        return progressoG.value
+    fun getG() : Int{
+        return progressoG.value ?: 0
     }
-    fun getB() : Int? {
-        return progressoB.value
+    fun getB() : Int {
+        return progressoB.value ?: 0
     }
 
     fun getAccessMode(): Boolean{
@@ -77,13 +77,13 @@ class ProgressoViewModel: ViewModel() {
         progressoV.value = value
         setArray()
     }
-    fun getH(): Float?{
-        return progressoH.value
+    fun getH(): Float{
+        return progressoH.value ?: 0F
     }
-    fun getS(): Float?{
-        return progressoS.value
+    fun getS(): Float{
+        return progressoS.value ?: 0F
     }
-    fun getV(): Float?{
-        return progressoV.value
+    fun getV(): Float{
+        return progressoV.value ?: 0F
     }
 }

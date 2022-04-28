@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/drawable-mdpi_fundoapp.jpg.flat",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/drawable-mdpi/fundoapp.jpg"
+    },
+    {
         "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/layout_list_color.xml.flat",
         "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/list_color.xml"
     },
@@ -28,16 +32,28 @@
         "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/drawable-mdpi_logout_web_button.png.flat",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/drawable-mdpi/logout_web_button.png"
+    },
+    {
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/layout_topbar.xml.flat",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/topbar.xml"
+    },
+    {
         "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/layout_help_dialog.xml.flat",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/help_dialog.xml"
     },
     {
         "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/layout_fragment_hsv.xml.flat",
         "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/fragment_hsv.xml"
+    },
+    {
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/layout_fragment_data.xml.flat",
@@ -52,12 +68,20 @@
         "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/register_dialog.xml"
     },
     {
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/drawable-mdpi_circulo.jpg.flat",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/drawable-mdpi/circulo.jpg"
+    },
+    {
         "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/drawable_item_background.xml.flat",
         "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/drawable/item_background.xml"
     },
     {
         "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/drawable_logout_outlined_button.png.flat",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/drawable/logout_outlined_button.png"
     },
     {
         "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
@@ -72,6 +96,18 @@
         "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/drawable-mdpi_help.png.flat",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/drawable-mdpi/help.png"
+    },
+    {
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/drawable_round_corner.xml.flat",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/drawable/round_corner.xml"
+    },
+    {
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/drawable-mdpi_icons8_mail_50.png.flat",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/drawable-mdpi/icons8_mail_50.png"
+    },
+    {
         "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/layout_fragment_view.xml.flat",
         "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/fragment_view.xml"
     },
@@ -84,6 +120,10 @@
         "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/drawable-mdpi_icons8_password_30.png.flat",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/drawable-mdpi/icons8_password_30.png"
+    },
+    {
         "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
         "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/drawable/ic_launcher_background.xml"
     },
@@ -94,6 +134,10 @@
     {
         "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
         "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/drawable-mdpi_logout_outlined_button2.png.flat",
+        "source": "/Users/harllonpaz/Workspace/Android/ColorApp/app/src/main/res/drawable-mdpi/logout_outlined_button2.png"
     },
     {
         "merged": "/Users/harllonpaz/Workspace/Android/ColorApp/app/build/intermediates/merged_res/debug/layout_fragment_saved.xml.flat",

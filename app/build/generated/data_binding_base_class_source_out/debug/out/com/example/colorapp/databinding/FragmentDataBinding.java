@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.SeekBar;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -45,10 +46,23 @@ public final class FragmentDataBinding implements ViewBinding {
   @NonNull
   public final Button saveButtonRGB;
 
+  @NonNull
+  public final TextView textView;
+
+  @NonNull
+  public final TextView textView2;
+
+  @NonNull
+  public final TextView textView3;
+
+  @NonNull
+  public final TextView textView4;
+
   private FragmentDataBinding(@NonNull ConstraintLayout rootView, @NonNull SeekBar Bbar,
       @NonNull EditText BvalueEdittxt, @NonNull SeekBar Gbar, @NonNull EditText GvalueEdittxt,
       @NonNull SeekBar Rbar, @NonNull EditText RvalueEdittxt, @NonNull ConstraintLayout frameLayout,
-      @NonNull Button saveButtonRGB) {
+      @NonNull Button saveButtonRGB, @NonNull TextView textView, @NonNull TextView textView2,
+      @NonNull TextView textView3, @NonNull TextView textView4) {
     this.rootView = rootView;
     this.Bbar = Bbar;
     this.BvalueEdittxt = BvalueEdittxt;
@@ -58,6 +72,10 @@ public final class FragmentDataBinding implements ViewBinding {
     this.RvalueEdittxt = RvalueEdittxt;
     this.frameLayout = frameLayout;
     this.saveButtonRGB = saveButtonRGB;
+    this.textView = textView;
+    this.textView2 = textView2;
+    this.textView3 = textView3;
+    this.textView4 = textView4;
   }
 
   @Override
@@ -131,8 +149,33 @@ public final class FragmentDataBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
+        break missingId;
+      }
+
+      id = R.id.textView2;
+      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
+      if (textView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView3;
+      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
+      if (textView3 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView4;
+      TextView textView4 = ViewBindings.findChildViewById(rootView, id);
+      if (textView4 == null) {
+        break missingId;
+      }
+
       return new FragmentDataBinding((ConstraintLayout) rootView, Bbar, BvalueEdittxt, Gbar,
-          GvalueEdittxt, Rbar, RvalueEdittxt, frameLayout, saveButtonRGB);
+          GvalueEdittxt, Rbar, RvalueEdittxt, frameLayout, saveButtonRGB, textView, textView2,
+          textView3, textView4);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

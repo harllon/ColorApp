@@ -5,17 +5,19 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.cardview.widget.CardView
 import androidx.lifecycle.LiveData
 import androidx.recyclerview.selection.ItemDetailsLookup
 import androidx.recyclerview.selection.SelectionTracker
 import androidx.recyclerview.widget.RecyclerView
 import com.example.colorapp.ColorItemDetailsLookup
 import com.example.colorapp.R
+import com.example.colorapp.colorRoom.ColorEntity
 
 class ColorRecyclerAdapter(private val listColors: List<Int>?, private val onItemClicked: (Int) -> Unit) :
     RecyclerView.Adapter<ColorRecyclerAdapter.ViewHolder>(){
         class ViewHolder(view: View) : RecyclerView.ViewHolder(view){
-            val colorView: View = view.findViewById(R.id.colorView)
+            val colorView: CardView = view.findViewById(R.id.circleColorViewRecycler)
         }
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): ViewHolder {
@@ -24,11 +26,17 @@ class ColorRecyclerAdapter(private val listColors: List<Int>?, private val onIte
     }
 
     override fun onBindViewHolder(viewHolder: ViewHolder, position: Int) {
-        listColors?.get(position)?.let { viewHolder.colorView.setBackgroundColor(it) }
-       // tracker?.let { viewHolder.bind(listColors!!.get(position), it.isSelected(position.toLong())) }
+        listColors?.get(position)?.let { viewHolder.colorView.setCardBackgroundColor(it) }
+            // tracker?.let { viewHolder.bind(listColors!!.get(position), it.isSelected(position.toLong())) }
         viewHolder.itemView.setOnClickListener{
             listColors?.let { it1 -> onItemClicked(it1.get(position)) }
         }
+
+        /*listColors?.get(position)?.let { viewHolder.colorView.setBackgroundColor(it.color) }
+       // tracker?.let { viewHolder.bind(listColors!!.get(position), it.isSelected(position.toLong())) }
+        viewHolder.itemView.setOnClickListener{
+            listColors?.let { it1 -> onItemClicked(it1.get(position).color) }
+        }*/
 
         Log.d("Valor chegando no VH: ", listColors?.get(position).toString())
     }

@@ -105,6 +105,7 @@ class ViewFragment : Fragment() {
         if(redColor != null && greenColor != null && blueColor != null){
             //Log.d("observador", "entrei aqui oh")
             viewBinding.ColorView.setBackgroundColor(Color.rgb(redColor, greenColor, blueColor))
+            viewBinding.circleColorView.setCardBackgroundColor(Color.rgb(redColor, greenColor, blueColor))
         }
     }
 }

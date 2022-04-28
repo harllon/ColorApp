@@ -4,11 +4,13 @@ import android.graphics.Color
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.SeekBar
+import android.widget.Toast
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
 import com.example.colorapp.ColorApplication
@@ -17,6 +19,10 @@ import com.example.colorapp.databinding.FragmentDataBinding
 import com.example.colorapp.viewModels.ColorRViewModel
 import com.example.colorapp.viewModels.ColorRViewModelFactory
 import com.example.colorapp.viewModels.ProgressoViewModel
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
+import java.lang.Exception
 
 class DataFragment : Fragment() {
     private var _binding : FragmentDataBinding? = null
@@ -25,7 +31,7 @@ class DataFragment : Fragment() {
     private val colorRViewModel: ColorRViewModel by activityViewModels{
         ColorRViewModelFactory((activity?.application as ColorApplication).repository)
     }
-
+    private lateinit var auth: FirebaseAuth
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -37,7 +43,6 @@ class DataFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         val observerR = Observer<Int>{
             if(model.getR() != null){
                 if(model.getAccessMode()){
@@ -160,7 +165,6 @@ class DataFragment : Fragment() {
 
 
     }
-
     private fun save(){
         dataBinding.saveButtonRGB.setOnClickListener {
             val red = model.getR() ?: 0
@@ -168,7 +172,14 @@ class DataFragment : Fragment() {
             val blue = model.getB() ?: 0
             val colorInt = Color.rgb(red, green, blue)
             val colString = ColorEntity(colorInt)
-            colorRViewModel.insert(colString)
+            try {
+                colorRViewModel.insert(colString)
+                Toast.makeText(context, "Color Successfully Saved!", Toast.LENGTH_SHORT).show()
+            }catch (exception: Exception){
+                Toast.makeText(context, "Unable to save the color", Toast.LENGTH_SHORT).show()
+            }
+
+
         }
     }
 }

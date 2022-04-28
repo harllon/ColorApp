@@ -4,16 +4,19 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/item_background.xml" value="0.1895" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.17" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="app/src/main/res/drawable/round_corner.xml" value="0.2475" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/dialog_template.xml" value="0.2833333333333333" />
         <entry key="app/src/main/res/layout/fragment_data.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_data2.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_hsv.xml" value="0.4036458333333333" />
-        <entry key="app/src/main/res/layout/fragment_saved.xml" value="0.13489583333333333" />
+        <entry key="app/src/main/res/layout/fragment_hsv.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_saved.xml" value="0.33" />
         <entry key="app/src/main/res/layout/fragment_view.xml" value="0.13489583333333333" />
+        <entry key="app/src/main/res/layout/help_dialog.xml" value="0.23233695652173914" />
         <entry key="app/src/main/res/layout/list_color.xml" value="0.13489583333333333" />
-        <entry key="app/src/main/res/layout/register_dialog.xml" value="0.15572916666666667" />
+        <entry key="app/src/main/res/layout/register_dialog.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/topbar.xml" value="0.335" />
       </map>
     </option>
   </component>

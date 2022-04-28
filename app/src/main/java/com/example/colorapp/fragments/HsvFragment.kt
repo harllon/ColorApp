@@ -59,7 +59,42 @@ class HsvFragment : Fragment() {
 
         setup()
         save()
+        //observeRGB()
     }
+
+    /*private fun observeRGB(){
+        var rValue = model.getR()
+        var gValue = model.getG()
+        var bValue = model.getB()
+        val observerB = Observer<Int> {
+            bValue = model.getB()
+            syncroRGB(rValue, gValue, bValue)
+        }
+        model.progressoB.observe(viewLifecycleOwner, observerB)
+        val observerR = Observer<Int> {
+            if(model.getR() != null){
+                rValue = model.getR()
+                syncroRGB(rValue, gValue, bValue)
+            }
+        }
+        model.progressoR.observe(viewLifecycleOwner, observerR)
+        val observerG = Observer<Int> {
+            if(model.getG() != null){
+                gValue = model.getG()
+                syncroRGB(rValue, gValue, bValue)
+            }
+        }
+        model.progressoG.observe(viewLifecycleOwner, observerG)
+    }
+
+    private fun syncroRGB(rValue: Int, gValue: Int, bValue: Int){
+        val hsvArray = FloatArray(3)
+        Color.colorToHSV(Color.rgb(rValue, gValue, bValue), hsvArray)
+        model.setH(hsvArray[0])
+        model.setS(hsvArray[1])
+        model.setV(hsvArray[2])
+        //setup()
+    }*/
 
     private fun setup(){
         hsvBinding.Hbar.setOnSeekBarChangeListener(object: SeekBar.OnSeekBarChangeListener{

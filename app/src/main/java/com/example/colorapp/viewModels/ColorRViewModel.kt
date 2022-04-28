@@ -8,6 +8,7 @@ import kotlinx.coroutines.launch
 
 class ColorRViewModel(private val repository: ColorRepository): ViewModel() {
     val allColors: LiveData<List<Int>> = repository.allColors.asLiveData()
+    //val token: String
 
     fun insert(color: ColorEntity) = viewModelScope.launch {
         repository.insert(color)

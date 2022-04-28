@@ -4,7 +4,7 @@ package com.example.colorapp.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
+import android.widget.ImageButton;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -32,16 +32,20 @@ public final class ActivityMainBinding implements ViewBinding {
   public final FragmentContainerView ViewContainer;
 
   @NonNull
-  public final Button signOutButton;
+  public final ImageButton helpImageButton;
+
+  @NonNull
+  public final ImageButton signoutImageButton;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull ViewPager2 DataSlider,
       @NonNull TabLayout Guia, @NonNull FragmentContainerView ViewContainer,
-      @NonNull Button signOutButton) {
+      @NonNull ImageButton helpImageButton, @NonNull ImageButton signoutImageButton) {
     this.rootView = rootView;
     this.DataSlider = DataSlider;
     this.Guia = Guia;
     this.ViewContainer = ViewContainer;
-    this.signOutButton = signOutButton;
+    this.helpImageButton = helpImageButton;
+    this.signoutImageButton = signoutImageButton;
   }
 
   @Override
@@ -89,14 +93,20 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.signOutButton;
-      Button signOutButton = ViewBindings.findChildViewById(rootView, id);
-      if (signOutButton == null) {
+      id = R.id.helpImageButton;
+      ImageButton helpImageButton = ViewBindings.findChildViewById(rootView, id);
+      if (helpImageButton == null) {
+        break missingId;
+      }
+
+      id = R.id.signoutImageButton;
+      ImageButton signoutImageButton = ViewBindings.findChildViewById(rootView, id);
+      if (signoutImageButton == null) {
         break missingId;
       }
 
       return new ActivityMainBinding((ConstraintLayout) rootView, DataSlider, Guia, ViewContainer,
-          signOutButton);
+          helpImageButton, signoutImageButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

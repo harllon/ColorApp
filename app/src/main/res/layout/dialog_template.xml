@@ -1,135 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/colorDetailsTextView"
         android:layout_width="204dp"
         android:layout_height="33dp"
+        android:layout_gravity="center"
         android:gravity="center"
         android:text="@string/ColorDetails"
+        android:textColor="#AA00FF"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.037" />
+        android:translationY="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:translationY="40dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:translationX="50dp"
+            android:translationY="0dp">
+
+            <TextView
+                android:id="@+id/rgbTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/RGB"
+                android:textColor="#050505"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="TextView"
+                android:textColor="#050505"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:translationY="30dp" />
+
+            <TextView
+                android:id="@+id/gTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="TextView"
+                android:textColor="#020202"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:translationY="50dp" />
+
+            <TextView
+                android:id="@+id/bTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="TextView"
+                android:textColor="#040404"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:translationY="70dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="211dp"
+            android:orientation="vertical"
+            android:translationX="130dp"
+            android:translationY="0dp">
+
+            <TextView
+                android:id="@+id/hsvTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/HSV"
+                android:textColor="#020202"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="TextView"
+                android:textColor="#020202"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:translationY="30dp" />
+
+            <TextView
+                android:id="@+id/sTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="TextView"
+                android:textColor="#050505"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:translationY="50dp" />
+
+            <TextView
+                android:id="@+id/vTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="TextView"
+                android:textColor="#020202"
+                android:textSize="16sp"
+                android:translationY="70dp" />
+        </LinearLayout>
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/deleteSingleColor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#AA00FF"
         android:text="@string/Delete"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/colorDetailsTextView"
-        app:layout_constraintVertical_bias="0.951" />
+        android:translationY="0dp" />
 
-    <TextView
-        android:id="@+id/rgbTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/RGB"
-        app:layout_constraintBottom_toTopOf="@+id/deleteSingleColor"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.197"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/colorDetailsTextView"
-        app:layout_constraintVertical_bias="0.157" />
-
-    <TextView
-        android:id="@+id/hsvTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/HSV"
-        app:layout_constraintBottom_toTopOf="@+id/deleteSingleColor"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.776"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/colorDetailsTextView"
-        app:layout_constraintVertical_bias="0.157" />
-
-    <TextView
-        android:id="@+id/rTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="left"
-        android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/deleteSingleColor"
-        app:layout_constraintEnd_toStartOf="@+id/hTextView"
-        app:layout_constraintHorizontal_bias="0.179"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rgbTextView"
-        app:layout_constraintVertical_bias="0.164" />
-
-    <TextView
-        android:id="@+id/gTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="left"
-        android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/deleteSingleColor"
-        app:layout_constraintEnd_toStartOf="@+id/sTextView"
-        app:layout_constraintHorizontal_bias="0.178"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rTextView"
-        app:layout_constraintVertical_bias="0.248" />
-
-    <TextView
-        android:id="@+id/bTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="left"
-        android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/deleteSingleColor"
-        app:layout_constraintEnd_toStartOf="@+id/vTextView"
-        app:layout_constraintHorizontal_bias="0.178"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gTextView"
-        app:layout_constraintVertical_bias="0.434" />
-
-    <TextView
-        android:id="@+id/hTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="left"
-        android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/deleteSingleColor"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.798"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hsvTextView"
-        app:layout_constraintVertical_bias="0.165" />
-
-    <TextView
-        android:id="@+id/sTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="left"
-        android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/deleteSingleColor"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.798"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hTextView"
-        app:layout_constraintVertical_bias="0.248" />
-
-    <TextView
-        android:id="@+id/vTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="left"
-        android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/deleteSingleColor"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.798"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sTextView"
-        app:layout_constraintVertical_bias="0.434" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

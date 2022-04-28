@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">ColorApp</string>
-    <string name="color">#Color</string>
-    <string name="change_color">Change</string>
+    <string name="color">#RRGGBB</string>
+    <string name="change_color">Change Color</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="Title">Color App</string>
     <string name="Rvalue">R value</string>
@@ -11,7 +11,8 @@
     <string name="Svalue">S value</string>
     <string name="Vvalue">V value</string>
     <string name="Save">Save</string>
-    <string name="Delete">Delete</string>
+    <string name="Delete">Delete Color</string>
+    <string name="Return">Return</string>
     <string name="ColorDetails">Color Details</string>
     <string name="RGB">RGB</string>
     <string name="HSV">HSV</string>
@@ -23,4 +24,21 @@
     <string name="Email">Email</string>
     <string name="Confirm_Password">Confirm Password</string>
     <string name="SignOut">Sign Out</string>
+    <string name="ClearAll">Clear All</string>
+    <string name="R">R:</string>
+    <string name="G">G:</string>
+    <string name="B">B:</string>
+    <string name="saveColor">Save Color</string>
+    <string name="rgbTitle">Slide the Bar and Choose your Color!</string>
+    <string name="hexTitle">Write the Hexadecimal of the Desired Color</string>
+    <string name="H">H:</string>
+    <string name="S">S:</string>
+    <string name="V">V:</string>
+    <string name="TitleTopBar">Color App</string>
+    <string name="savedTitle">Try to click a Color 😝</string>
+    <string name="helpTitle">Understanding the App 🧐</string>
+    <string name="rgbBarText"><b>RGB Bar Tab</b> This tab allows you to choose a color changing the RGB bar or setting directly a number for each component</string>
+    <string name="hexText"><b>RGB Hex Bar Tab:</b> This tab receive a hexadecimal RGB for the color using the format RRGGBB. Each number goes from 0 to F</string>
+    <string name="hsvText"><b>HSV tab:</b> This tab is the same as the RGB Bar, but here you select the color using HSV color system</string>
+    <string name="savedText"><b>Saved Colors Tab:</b> Here you can see all the colors that you have saved. Moreover you can select the color of interest and then you will see information about it</string>
 </resources>

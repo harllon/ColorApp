@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -32,14 +33,19 @@ public final class FragmentData2Binding implements ViewBinding {
   @NonNull
   public final Button saveButton;
 
+  @NonNull
+  public final TextView textView5;
+
   private FragmentData2Binding(@NonNull ConstraintLayout rootView,
       @NonNull Button ChangeColorButton, @NonNull EditText HexEditTxt,
-      @NonNull ConstraintLayout frameLayout3, @NonNull Button saveButton) {
+      @NonNull ConstraintLayout frameLayout3, @NonNull Button saveButton,
+      @NonNull TextView textView5) {
     this.rootView = rootView;
     this.ChangeColorButton = ChangeColorButton;
     this.HexEditTxt = HexEditTxt;
     this.frameLayout3 = frameLayout3;
     this.saveButton = saveButton;
+    this.textView5 = textView5;
   }
 
   @Override
@@ -89,8 +95,14 @@ public final class FragmentData2Binding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView5;
+      TextView textView5 = ViewBindings.findChildViewById(rootView, id);
+      if (textView5 == null) {
+        break missingId;
+      }
+
       return new FragmentData2Binding((ConstraintLayout) rootView, ChangeColorButton, HexEditTxt,
-          frameLayout3, saveButton);
+          frameLayout3, saveButton, textView5);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

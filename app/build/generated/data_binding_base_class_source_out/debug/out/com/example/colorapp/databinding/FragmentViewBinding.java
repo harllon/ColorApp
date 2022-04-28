@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -22,12 +23,16 @@ public final class FragmentViewBinding implements ViewBinding {
   public final View ColorView;
 
   @NonNull
+  public final CardView circleColorView;
+
+  @NonNull
   public final ConstraintLayout frameLayout2;
 
   private FragmentViewBinding(@NonNull ConstraintLayout rootView, @NonNull View ColorView,
-      @NonNull ConstraintLayout frameLayout2) {
+      @NonNull CardView circleColorView, @NonNull ConstraintLayout frameLayout2) {
     this.rootView = rootView;
     this.ColorView = ColorView;
+    this.circleColorView = circleColorView;
     this.frameLayout2 = frameLayout2;
   }
 
@@ -64,9 +69,16 @@ public final class FragmentViewBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.circleColorView;
+      CardView circleColorView = ViewBindings.findChildViewById(rootView, id);
+      if (circleColorView == null) {
+        break missingId;
+      }
+
       ConstraintLayout frameLayout2 = (ConstraintLayout) rootView;
 
-      return new FragmentViewBinding((ConstraintLayout) rootView, ColorView, frameLayout2);
+      return new FragmentViewBinding((ConstraintLayout) rootView, ColorView, circleColorView,
+          frameLayout2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

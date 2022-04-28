@@ -5,15 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activities.MainActivity">
+    <include layout="@layout/topbar"/>
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/ViewContainer"
         android:name="com.example.colorapp.fragments.ViewFragment"
         android:layout_width="252dp"
         android:layout_height="172dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="56dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -51,26 +52,38 @@
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/DataSlider"
-        android:layout_width="389dp"
-        android:layout_height="383dp"
+        android:layout_width="405dp"
+        android:layout_height="408dp"
         app:layout_constraintBottom_toBottomOf="@+id/Guia"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.862">
+        app:layout_constraintVertical_bias="0.738">
 
     </androidx.viewpager2.widget.ViewPager2>
 
-    <Button
-        android:id="@+id/signOutButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/SignOut"
+    <ImageButton
+        android:id="@+id/signoutImageButton"
+        android:layout_width="29dp"
+        android:layout_height="32dp"
+        android:background="@drawable/logout_web_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintHorizontal_bias="0.958"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.297" />
+        app:layout_constraintVertical_bias="0.022" />
+
+    <ImageButton
+        android:id="@+id/helpImageButton"
+        android:layout_width="29dp"
+        android:layout_height="32dp"
+        android:background="@drawable/help"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

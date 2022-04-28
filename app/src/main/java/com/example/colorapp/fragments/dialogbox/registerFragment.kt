@@ -1,15 +1,19 @@
 package com.example.colorapp.fragments.dialogbox
 
+import android.os.Build
 import android.os.Bundle
+import android.util.DisplayMetrics
 import android.view.*
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import androidx.annotation.RequiresApi
 import androidx.fragment.app.DialogFragment
 import com.example.colorapp.R
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
+
 
 class registerFragment : DialogFragment() {
     private lateinit var auth: FirebaseAuth
@@ -18,12 +22,18 @@ class registerFragment : DialogFragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        dialog?.window?.setBackgroundDrawableResource(R.drawable.round_corner)
         return inflater.inflate(R.layout.register_dialog, container)
     }
 
+    @RequiresApi(Build.VERSION_CODES.R)
     override fun onStart() {
         super.onStart()
-        dialog?.window?.setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.WRAP_CONTENT)
+        val width = (resources.displayMetrics.widthPixels * 0.85).toInt()
+        val height = (resources.displayMetrics.heightPixels * 0.65).toInt()
+        val heightChoosed = 1000
+        dialog?.window?.setLayout(width, height)
+        //dialog?.window?.setLayout(WindowManager.LayoutParams.MATCH_PARENT,heightChoosed)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

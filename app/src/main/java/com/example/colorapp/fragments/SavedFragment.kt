@@ -36,13 +36,23 @@ class SavedFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         var listColors = colorRViewModel.getAllColors()
-        var adapter = ColorRecyclerAdapter(listColors){ valor -> doSomenting(valor)}
+        if(listColors?.isEmpty() == true){
+            savedBinding.textView10.visibility = View.INVISIBLE
+        }else{
+            savedBinding.textView10.visibility = View.VISIBLE
+        }
+        var adapter = ColorRecyclerAdapter(listColors){ valor -> showDialog(valor)}
         //tracker = SelectionTracker.Builder<Long>("mySelection", savedBinding.colorRecycler, StableIdKeyProvider(savedBinding.colorRecycler), ColorItemDetailsLookup(savedBinding.colorRecycler), StorageStrategy.createLongStorage()).withSelectionPredicate(SelectionPredicates.createSelectAnything()).build()
         savedBinding.colorRecycler.layoutManager = GridLayoutManager(context,3)
        // adapter.tracker = tracker
         savedBinding.colorRecycler.adapter = adapter
         colorRViewModel.allColors.observe(viewLifecycleOwner){
-            adapter = ColorRecyclerAdapter(it){valor -> doSomenting(valor)}
+            if(it.isEmpty()){
+                savedBinding.textView10.visibility = View.INVISIBLE
+            }else{
+                savedBinding.textView10.visibility = View.VISIBLE
+            }
+            adapter = ColorRecyclerAdapter(it){valor -> showDialog(valor)}
             savedBinding.colorRecycler.adapter = adapter
         }
 
@@ -51,7 +61,7 @@ class SavedFragment : Fragment() {
 
     }
     @RequiresApi(Build.VERSION_CODES.O)
-    private fun doSomenting(value: Int){
+    private fun showDialog(value: Int){
         //val color: Color = Color.valueOf(value)
         val dialog = modalFragment(value)
         dialog.show(parentFragmentManager, dialog.tag)

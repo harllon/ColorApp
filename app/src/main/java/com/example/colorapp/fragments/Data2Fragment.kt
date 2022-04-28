@@ -12,21 +12,25 @@ import androidx.fragment.app.activityViewModels
 import com.example.colorapp.ColorApplication
 import com.example.colorapp.colorRoom.ColorEntity
 import com.example.colorapp.databinding.FragmentData2Binding
-import com.example.colorapp.viewModels.ColorRViewModel
-import com.example.colorapp.viewModels.ColorRViewModelFactory
-import com.example.colorapp.viewModels.ColorViewModel
-import com.example.colorapp.viewModels.ProgressoViewModel
+import com.example.colorapp.viewModels.*
+import com.google.android.gms.tasks.OnSuccessListener
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
+import java.lang.Exception
 import java.lang.IllegalArgumentException
 
 class Data2Fragment : Fragment() {
     private var _binding : FragmentData2Binding? = null
     private val data2Binding get() = _binding!!
     private val colorModel : ColorViewModel by activityViewModels()
-    private val model : ProgressoViewModel by activityViewModels()
+    //private val model : ProgressoViewModel by activityViewModels()
     private val colorRViewModel: ColorRViewModel by activityViewModels{
         ColorRViewModelFactory((activity?.application as ColorApplication).repository)
     }
     private var colorString: String = ""
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -66,7 +70,13 @@ class Data2Fragment : Fragment() {
     private fun save(){
         data2Binding.saveButton.setOnClickListener {
             var colString = ColorEntity(Color.parseColor(colorString))
-            colorRViewModel.insert(colString)
+            try {
+                colorRViewModel.insert(colString)
+                Toast.makeText(context, "Color Successfully Saved!", Toast.LENGTH_SHORT).show()
+            }catch (exception: Exception){
+                Toast.makeText(context, "Unable to save the color", Toast.LENGTH_SHORT).show()
+            }
+
             /*for (colors in colorRViewModel.allColors.value!!){
                 Log.d("cor", colors.toString())
             }*/

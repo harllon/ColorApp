@@ -82,6 +82,7 @@ MERGED from [androidx.core:core:1.7.0] /Users/harllonpaz/.gradle/caches/transfor
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/harllonpaz/.gradle/caches/transforms-3/b0bb9d8d75e3b693a86473837ce0a0e2/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/harllonpaz/.gradle/caches/transforms-3/076a2c6d2ad8c4839721e9528d41e833/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.room:room-runtime:2.4.2] /Users/harllonpaz/.gradle/caches/transforms-3/34d518224fb24e4d6bf704da81c6339c/transformed/room-runtime-2.4.2/AndroidManifest.xml:17:1-31:12
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/7ee4b56bfd3c3f7064f8a79cfae38f87/transformed/circleimageview-3.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/d100c59507d264a27bd35a33f49955ad/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/965134906de8cc29a748cebc0064e6c0/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] /Users/harllonpaz/.gradle/caches/transforms-3/a7b786eee21d47dcb433116cc031b520/transformed/lifecycle-viewmodel-2.4.1/AndroidManifest.xml:17:1-24:12
@@ -172,6 +173,8 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/harllonpaz/.grad
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/harllonpaz/.gradle/caches/transforms-3/b0bb9d8d75e3b693a86473837ce0a0e2/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.room:room-runtime:2.4.2] /Users/harllonpaz/.gradle/caches/transforms-3/34d518224fb24e4d6bf704da81c6339c/transformed/room-runtime-2.4.2/AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.room:room-runtime:2.4.2] /Users/harllonpaz/.gradle/caches/transforms-3/34d518224fb24e4d6bf704da81c6339c/transformed/room-runtime-2.4.2/AndroidManifest.xml:24:5-29:19
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/7ee4b56bfd3c3f7064f8a79cfae38f87/transformed/circleimageview-3.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/7ee4b56bfd3c3f7064f8a79cfae38f87/transformed/circleimageview-3.1.0/AndroidManifest.xml:9:5-20
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/harllonpaz/.gradle/caches/transforms-3/5127c81d5ae32ab395956e2ceab595f7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/harllonpaz/.gradle/caches/transforms-3/5127c81d5ae32ab395956e2ceab595f7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/beb9029676904221866b3f7cdf507720/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
@@ -380,6 +383,8 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/harllonpaz/.grad
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/harllonpaz/.gradle/caches/transforms-3/076a2c6d2ad8c4839721e9528d41e833/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-runtime:2.4.2] /Users/harllonpaz/.gradle/caches/transforms-3/34d518224fb24e4d6bf704da81c6339c/transformed/room-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-runtime:2.4.2] /Users/harllonpaz/.gradle/caches/transforms-3/34d518224fb24e4d6bf704da81c6339c/transformed/room-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/7ee4b56bfd3c3f7064f8a79cfae38f87/transformed/circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.1.0] /Users/harllonpaz/.gradle/caches/transforms-3/7ee4b56bfd3c3f7064f8a79cfae38f87/transformed/circleimageview-3.1.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/d100c59507d264a27bd35a33f49955ad/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/d100c59507d264a27bd35a33f49955ad/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /Users/harllonpaz/.gradle/caches/transforms-3/965134906de8cc29a748cebc0064e6c0/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44

@@ -5,6 +5,7 @@ import com.example.colorapp.adapters.DataSliderAdapter
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.colorapp.databinding.ActivityMainBinding
+import com.example.colorapp.fragments.dialogbox.HelpFragment
 import com.google.android.material.tabs.TabLayoutMediator
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -27,18 +28,25 @@ class MainActivity : AppCompatActivity() {
         }}.attach()
         //change()
         signOut()
+        help()
     }
 
     private fun signOut(){
-        main_binding.signOutButton.setOnClickListener {
+        main_binding.signoutImageButton.setOnClickListener {
             auth = Firebase.auth
             auth.signOut()
             val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
-
-
-
+    }
+    private fun help(){
+        main_binding.helpImageButton.setOnClickListener {
+            showDialog()
+        }
+    }
+    private fun showDialog(){
+        val dialog = HelpFragment()
+        dialog.show(supportFragmentManager, dialog.tag)
     }
     /*fun change(){
         main_binding.changeButton.setOnClickListener {

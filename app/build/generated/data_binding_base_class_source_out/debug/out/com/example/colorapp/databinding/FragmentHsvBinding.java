@@ -45,10 +45,23 @@ public final class FragmentHsvBinding implements ViewBinding {
   @NonNull
   public final Button saveButtonHSV;
 
+  @NonNull
+  public final TextView textView6;
+
+  @NonNull
+  public final TextView textView7;
+
+  @NonNull
+  public final TextView textView8;
+
+  @NonNull
+  public final TextView textView9;
+
   private FragmentHsvBinding(@NonNull ConstraintLayout rootView, @NonNull SeekBar Hbar,
       @NonNull TextView Htextview, @NonNull SeekBar Sbar, @NonNull TextView Stextview,
       @NonNull SeekBar Vbar, @NonNull TextView Vtextview, @NonNull ConstraintLayout frameLayout4,
-      @NonNull Button saveButtonHSV) {
+      @NonNull Button saveButtonHSV, @NonNull TextView textView6, @NonNull TextView textView7,
+      @NonNull TextView textView8, @NonNull TextView textView9) {
     this.rootView = rootView;
     this.Hbar = Hbar;
     this.Htextview = Htextview;
@@ -58,6 +71,10 @@ public final class FragmentHsvBinding implements ViewBinding {
     this.Vtextview = Vtextview;
     this.frameLayout4 = frameLayout4;
     this.saveButtonHSV = saveButtonHSV;
+    this.textView6 = textView6;
+    this.textView7 = textView7;
+    this.textView8 = textView8;
+    this.textView9 = textView9;
   }
 
   @Override
@@ -131,8 +148,32 @@ public final class FragmentHsvBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textView6;
+      TextView textView6 = ViewBindings.findChildViewById(rootView, id);
+      if (textView6 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView7;
+      TextView textView7 = ViewBindings.findChildViewById(rootView, id);
+      if (textView7 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView8;
+      TextView textView8 = ViewBindings.findChildViewById(rootView, id);
+      if (textView8 == null) {
+        break missingId;
+      }
+
+      id = R.id.textView9;
+      TextView textView9 = ViewBindings.findChildViewById(rootView, id);
+      if (textView9 == null) {
+        break missingId;
+      }
+
       return new FragmentHsvBinding((ConstraintLayout) rootView, Hbar, Htextview, Sbar, Stextview,
-          Vbar, Vtextview, frameLayout4, saveButtonHSV);
+          Vbar, Vtextview, frameLayout4, saveButtonHSV, textView6, textView7, textView8, textView9);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

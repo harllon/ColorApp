@@ -7,6 +7,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.WindowManager
 import android.widget.Button
 import android.widget.TextView
 import androidx.annotation.RequiresApi
@@ -17,6 +18,9 @@ import com.example.colorapp.colorRoom.ColorEntity
 import com.example.colorapp.R
 import com.example.colorapp.viewModels.ColorRViewModel
 import com.example.colorapp.viewModels.ColorRViewModelFactory
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 import kotlin.math.roundToInt
 
 
@@ -29,12 +33,15 @@ class modalFragment(private val color: Int) : DialogFragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        dialog?.window?.setBackgroundDrawableResource(R.drawable.round_corner)
         return inflater.inflate(R.layout.dialog_template, container)
     }
 
     override fun onStart() {
         super.onStart()
-        dialog?.window?.setLayout(1100, 1200)
+        val width = (resources.displayMetrics.widthPixels * 0.90).toInt()
+        val height = (resources.displayMetrics.heightPixels * 0.65).toInt()
+        dialog?.window?.setLayout(width, WindowManager.LayoutParams.WRAP_CONTENT)
     }
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -88,6 +95,11 @@ class modalFragment(private val color: Int) : DialogFragment() {
         deleteButton.setOnClickListener {
             val colorEnt = ColorEntity(color)
             colorRViewModel.deleteColor(colorEnt)
+            finish()
         }
+    }
+
+    fun finish(){
+        dialog?.dismiss()
     }
 }
